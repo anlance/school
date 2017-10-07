@@ -11,10 +11,10 @@ public class Computer {
 			price = amount * 0.6;
 		}
 		else if(amount <= 150 && amount >= 91) {
-			price = amount * 1.1;
+			price = (amount -90)* 1.1+90*0.6;
 		}
 		else if(amount > 150) {
-			price = amount * 1.7;
+			price = (amount-150) * 1.7+60*1.1+90*0.6;
 		}
 		else {
 			System.out.println("输入电量："+amount+"不合理");
