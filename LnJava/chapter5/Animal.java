@@ -1,4 +1,5 @@
 package chapter5;
+//Animal.java
 
 class Animal{
     protected String name;

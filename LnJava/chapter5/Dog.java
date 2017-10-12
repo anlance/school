@@ -1,4 +1,5 @@
 package chapter5;
+//Dog.java
 
 class Dog extends Animal{
     Dog(String s){

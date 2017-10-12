@@ -1,4 +1,5 @@
 package chapter5;
+//Rect.java
 
 public class Rect extends Geometry{
     double a,b;
