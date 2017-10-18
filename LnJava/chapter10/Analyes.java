@@ -1,6 +1,5 @@
 package chapter10;
-//***---实验1---***//
-//Analyes.java----原Fenxi.java;
+//Analyes.java----åŽŸFenxi.java;
 
 import java.util.*;
 public class Analyes{

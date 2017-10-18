@@ -1,5 +1,4 @@
 package chapter10;
-//实验1
 //AnalysisResult.java
 
 import java.io.*;
