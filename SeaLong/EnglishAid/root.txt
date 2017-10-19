@@ -1,0 +1,23 @@
+//日常高频词根
+
+cent(i) = hundred [表示"百"]
+    {
+        cent:美分.  "I don't have a cent with me."
+        centigrade:摄氏的.  "minus threedegress centigrade."
+        century:世纪,百年.  "The church was built in 13th century."
+        percent:百分比.  "The increase in unemployment was to percent last month."
+        percentage:百分率.  "What percentage of the earth is covered by oceans"
+        centimeter:厘米.  "Until about thirty years ago, record albums were made of pressed vinyl and were about thirty centimeters across."
+        centennial:百年纪念的,百年纪念.  "Various celebration activities for the writer's centennial are being held."    
+    }
+circ,cycl = ring,cicle [表示"圆，环"]
+    {
+        circle:圆;圈子,界;阶层.  "upper circle"
+        circlet:小环,小圈.
+        circus:马戏团.
+        circuit:环形;电路.  "It is dangerous to make the circuit overloaded."
+        circular:循环的;圆的.  "There is a circular driveway in the near distance."
+        recycle:再循环,回收.  "They've introduced new techniques to recycle plastics."
+        circulate:(使)循环,(使)流通.  "Swimming helps the blood circulating through the muscles."
+        encyclopedia:百科全书.  "This encyclopedia is truly a compendium of knowledge."
+    }
