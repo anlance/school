@@ -5,9 +5,9 @@ import java.util.*;
 public class MainClass{
     public static void main(String args[]){
         Vector<String> allWord,noSameWord;
-        WordSatistic statistic = new WordSatistic();
-        statistic.setFileName(Hello.txt);
-        statistic.wordSatistic();
+        WordStatistic statistic = new WordStatistic();
+        statistic.setFileName("C:\\Users\\Administrator\\eclipse-workspace\\JavaTest\\bin\\chapter10\\hello.txt");
+        statistic.wordStatistic();
         allWord = statistic.getAllWord();
         noSameWord = statistic.getNoSameWord();
         System.out.println("共有"+allWord.size()+"个单词");
@@ -23,7 +23,7 @@ public class MainClass{
             }
         }
         for(int m=0;m<noSameWord.size();m++){
-            for(int n=0;n<allWord.size();n++){
+            for(int n=m+1;n<noSameWord.size();n++){
                 if(count[n]>count[m]){
                     String temp = noSameWord.elementAt(m);
                     noSameWord.setElementAt(noSameWord.elementAt(n),m);
@@ -35,8 +35,8 @@ public class MainClass{
             }
         }
         for(int m=0;m<noSameWord.size();m++){
-            double frequency = (1.0*count[m]/allWord.size());
-            System.out.println("s%:%-7.3f",noSameWord.elementAt(m),frequency);
+            double frequency = (1.0*count[m])/allWord.size();
+            System.out.printf("%s:%-7.3f",noSameWord.elementAt(m),frequency);
         }
     }
 }

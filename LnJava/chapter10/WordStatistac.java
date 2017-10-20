@@ -6,7 +6,7 @@ import java.util.*;
 
 public class WordStatistic{
     Vector<String> allWord,noSameWord;
-    File file = new File("english.txt");
+    File file = new File("C:\\Users\\Administrator\\eclipse-workspace\\JavaTest\\bin\\chapter10\\english.txt");
     Scanner sc = null;
     String regex;
     WordStatistic(){
@@ -35,9 +35,14 @@ public class WordStatistic{
             while(sc.hasNext()){
                 String word = sc.next();
                 allWord.add(word);
+                if(!noSameWord.contains(word))
+                	noSameWord.add(word);
             }
         }
         catch(Exception e){}
+    }
+    public Vector<String> getAllWord(){
+        return allWord;
     }
     public Vector<String> getNoSameWord(){
         return noSameWord;
