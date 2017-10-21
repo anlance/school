@@ -7,3 +7,5 @@
    * `CDUT`2016级 《java程序设计使用教程》（第二版）课后实验代码<br>
    * 部分输出的内容作了一些小修改<br>
    * _( ﾟДﾟ)ﾉ<br>
+ # [SeaLong](https://github.com/anlance/anlance/tree/master/SeaLong)
+   * 放了一些奇妙的东西<pr>
