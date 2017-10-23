@@ -1,8 +1,8 @@
-package chapter13;
+//package chapter13;
 //TypeKey.java
 
-import chapter13.GiveLetterThread;
-import chapter13.InputLetterThread;
+//import chapter13.GiveLetterThread;
+//import chapter13.InputLetterThread;
 
 public class TypeKey{
   public static void main(String []args){

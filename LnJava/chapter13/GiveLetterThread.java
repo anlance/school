@@ -1,4 +1,4 @@
-package chapter13;
+//package chapter13;
 //GiveLettrThread.java
 
 public class GiveLetterThread extends Thread{
@@ -15,7 +15,7 @@ public class GiveLetterThread extends Thread{
     char c = startChar;
     while(true){
       letter.setChar(c);
-      System.out.printlf("显示的字符：%c\n",letter.getChar());
+      System.out.printf("显示的字符：%c\n",letter.getChar());
       try{
         Thread.sleep(sleepLength);
       }

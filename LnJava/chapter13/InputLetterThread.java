@@ -1,9 +1,9 @@
-package chapter13;
+//package chapter13;
 //InputLetterThread.java
 import java.awt.*;
 import java.util.Scanner;
 
-public class InputLetterThread{
+public class InputLetterThread extends Thread{
   Scanner reader;
   Letter letter;
   int score = 0;
