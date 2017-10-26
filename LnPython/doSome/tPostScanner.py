@@ -25,7 +25,7 @@ def main():
     p.add_argument('-H',dest='hosts',type=str)
     args = p.parse_args()
     hostList = '119.29.155.110'
-    #hostList = args.hosts.split(',')  linux(?)
+    #hostList = args.hosts.split(',') 
     setdefaulttimeout(1)
     for host in hostList:
         print('Scanning the host:%s......' % (host))
