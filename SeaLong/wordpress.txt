@@ -1,0 +1,19 @@
+if (strtolower($_SERVER['SERVER_NAME'])!='anlan.club')
+{
+$URIRedirect=$_SERVER['REQUEST_URI'];
+if(strtolower($URIRedirect)=="/index.php")
+{
+$URIRedirect="/";
+}
+header('HTTP/1.1 301 Moved Permanently');
+header('Location:http://anlan.club'.$URIRedirect);
+exit();
+}   //重定向
+
+
+//icon（wordpress）
+<link id="favicon" href="http://anlan.club/wp-content/uploads/2017/10/me.png" rel="icon" type="image/x-icon" />
+
+SEO:
+CDUT操作系统课后题
+操作系统   /  罗俊松，唐源，唐云 编著.   --成都： 电子科技大学出版社，2015.8 (2017.7 重印)
