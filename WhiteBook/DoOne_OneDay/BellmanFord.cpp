@@ -56,3 +56,5 @@ bool Bellman2(int s){
             return false;
     }
 }
+
+//git 出现了一个错  看一下解决没
