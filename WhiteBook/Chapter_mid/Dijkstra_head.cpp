@@ -45,7 +45,7 @@ void dijkstra(int s) {
 			edge e = G[v][u];
 			if (d[e.to] > d[v] + e.cost) {
 				d[e.to] = d[v] + e.cost;
-				que.push(p(d[e.cost], d[e.to]));
+				que.push(p(d[e.cost], d[e.to]));//wrong
 			}
 
 		}
