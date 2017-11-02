@@ -38,16 +38,22 @@ class ServerThread extends Thread{
         catch(Exception exp){ }
     }
     public void handleClientGuess(int realNumber){
+        int guessCount = 0;
         while(true){
             try{
                 int clientGuess = in.readInt();
                 System.out.println(clientGuess);
-                if(clientGuess>realNumber)
+                if(clientGuess>realNumber){
+                    guessCount+=1;
                     out.writeUTF("猜大了，瓜皮");
-                else if(clientGuess<realNumber)
+                }
+                else if(clientGuess<realNumber){
+                    guessCount+=1;
                     out.writeUTF("猜小了，瓜瓜");
+                }
                 else{
-                    out.writeUTF("猜对了，乖乖");
+                    guessCount+=1;
+                    out.writeUTF("猜对了，乖乖,你一共猜了"+guessCount+"次！");
                     break;
                 }
             }
