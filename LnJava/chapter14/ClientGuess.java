@@ -1,5 +1,8 @@
 //ClientGuess.java
 //package chapter14;
+/*
+修改，客户可退出（且服务器不关闭）
+*/
 
 import java.io.*;
 import java.net.*;
@@ -21,13 +24,16 @@ class ReadNumber implements Runnable{
             while(true){
                 String str = in.readUTF();
                 System.out.println(str);
-                if(! str.startsWith("嘿嘿")){
+                if(! str.startsWith("嘿嘿") && ! str.startsWith("再见")){
                     if(str.startsWith("猜对了"))
                         continue;
                     System.out.print("wocao!我输入猜测：");
                     int myGuess = scanner.nextInt();
                     String enter = scanner.nextLine();
                     out.writeInt(myGuess);
+                }
+                else if(str.startsWith("再见")){
+                    return ;
                 }
                 else{
                     System.out.print("好的，我输入Y或者N:");

@@ -5,8 +5,6 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import javax.net.ssl.ExtendedSSLSession;
-
 class ServerThread extends Thread{
     Socket socket;
     DataInputStream in=null;
@@ -28,9 +26,10 @@ class ServerThread extends Thread{
                     Random random = new Random();
                     int realNumber = random.nextInt(100)+1;
                     handleClientGuess(realNumber);
-                    out.writeUTF("嘿嘿，输入Y继续，滚的话输入N！");
+                    out.writeUTF("嘿嘿，输入Y继续，离开的话输入N！");
                 }
                 else{
+                    out.writeUTF("再见！");
                     return;
                 }
             }
@@ -39,6 +38,7 @@ class ServerThread extends Thread{
     }
     public void handleClientGuess(int realNumber){
         int guessCount = 0;
+        System.out.println("客户开始猜数字：");
         while(true){
             try{
                 int clientGuess = in.readInt();
@@ -84,6 +84,10 @@ public class ServerNumber{
             }
             if(you != null){
                 new ServerThread(you).start();
+            }
+            else{
+                System.out.println("客户离开");
+                return ;
             }
         }
     }    
