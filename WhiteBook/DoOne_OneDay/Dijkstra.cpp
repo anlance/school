@@ -93,3 +93,28 @@ void dijkstraBt2(int s){
         }
     }
 }
+
+//--------3-----------//
+void dijkstraBt3(int s){
+    priority_queue<P, vector<P>, cmp> que;
+    fill(d, d + v, INF);
+    d[s] = 0;
+    que.push(P(0, s));
+    while(!que.empty()){
+        P p = que.top();//取出距离最短的点
+        que.pop();
+        int u = p.second;
+        if(d[u]<p.first)
+            continue;   //如果该点到s的距离大于最短距离，继续下次循环
+        //否则，在和u相邻的顶点中，取出每条边
+        //如果该边的to点的最短距离>该边的from点（u点）的最短距离加上边的权值
+        //那么前面的就等于后面的和
+        for (int i = 0; i < gf[u].size();i++){
+            edge et = gf[u][i];
+            if(d[et.to]>d[u]+et.cost){
+                d[et.to] = d[u] + et.cost;
+                que.push(P(d[et.to], et.to));
+            }
+        }
+    }
+}
