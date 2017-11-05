@@ -2,22 +2,71 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>gameHaiYang<title>
+        <title>gameHaiYang</title>
+        <style media="screen">
+            canvas{
+                border:1px black solid;
+            }
+            </style>
     </head>
     <body>
         <canvas id="id-canvas" width="400" height="300"></canvas>
 <script>
-var log = console.log.bind(console)
+//--11-5------//chrome问题，无法加载图片（解决跨域问题）
+var log =console.log.bind(console)
 var canvas = document.querySelector('#id-canvas')
 var context = canvas.getContext('2d')
+
+var x = 100
+var y = 200
 
 var img = new Image()
 img.src = 'paddle.png'
 log(img)
+img.onload = function(){
+    context.drawImage(img, x, y)
+}
 
-context.drawImage(img, 0, 0)
+var leftDown = false
+var rightDown = false
+var speed = 5
+//events
+window.addEventListener('keydown',function(event){
+    log('keydown')
+    var k = event.key
+    //log(event)
+    if(k == 'a'){
+        leftDown = true
+    } else if(k == 'd'){
+       rightDown = true
+    }
+})
+
+window.addEventListener('keyup',function(event){
+    log('keyup')
+    var k = event.key
+    //log(event)
+    if(k == 'a'){
+        leftDown = false
+    } else if(k == 'd'){
+       rightDown = false
+    }
+})
+
+setInterval(function(){
+    //update x and y
+    if(leftDown){
+        x -= speed
+    }else if(rightDown){
+        x += speed
+    }
+    //draw
+    context.clearRect(0,0,canvas.weidth,canvas.hight)
+    context.drawImage(img,x,y)
+},1000/30)
 
 
 </script>
     </body>
 </html>
+
