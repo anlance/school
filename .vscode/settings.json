@@ -4,6 +4,8 @@
         "ostream": "cpp",
         "ios": "cpp",
         "xutility": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp"
     }
 }
