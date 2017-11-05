@@ -13,6 +13,7 @@
         <canvas id="id-canvas" width="400" height="300"></canvas>
 <script>
 //--11-5------//chrome问题，无法加载图片（解决跨域问题）
+//----------仍然有个问题，图片刷新有问题，原来的并没有清楚，这是覆盖式刷新
 var log =console.log.bind(console)
 var canvas = document.querySelector('#id-canvas')
 var context = canvas.getContext('2d')
