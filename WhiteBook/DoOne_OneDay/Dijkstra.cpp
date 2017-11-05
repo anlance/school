@@ -118,3 +118,45 @@ void dijkstraBt3(int s){
         }
     }
 }
+
+//--------4--------//
+void dijkstraBt4(int s){
+    priority_queue<P, vector<P>, cmp> que;
+    d[s] = 0;
+    que.push(P(0, s));
+    while(!que.empty()){
+        P p = que.top();
+        que.pop();
+        int u = p.second;
+        if(d[u]<p.first)
+            continue;
+        for (int i = 0; i < gf[u].size();i++){
+            edge et = gf[u][i];
+            if(d[et.to]>d[u]+et.cost){
+                d[et.to] = d[u] + et.cost;
+                que.push(P(d[et.to], et.to));
+            }
+        }
+    }
+}
+
+//--------------5------------//
+void dijkstra5(int s){
+    priority_queue<P, vector<P>, cmp> que;
+    d[s] = 0;
+    que.push(P(0, s));
+    while(!que.empty()){
+        P p = que.top();
+        que.pop();
+        int u = p.second;
+        if(d[u]<p.first)
+            continue;
+        for (int i = 0; i < gf[u].size();i++){
+            edge et = gf[u][i];
+            if(d[et.to]>d[u]+et.cost){
+                d[et.to] = d[u] + et.cost;
+                que.push(P(d[et.to], et.to));
+            }
+        }
+    }
+}
