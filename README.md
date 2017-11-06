@@ -21,6 +21,6 @@
  ## [WhiteBook](https://github.com/anlance/anlance/tree/master/WhiteBook)
    * _挑战程序设计竞赛(第二版)_ <br>
    * ~~换个方式，先看一遍，通看之后再来一遍~~<br>
-   * 做`USACO`,同时多看基本算法.
+   * 做`USACO`一起书上的,先做再看再做.
  ## [osExperiment](https://github.com/anlance/anlance/tree/master/osExperiment)
    * **`CDUT`** 2016级**操作系统**实验<br>
