@@ -6,6 +6,8 @@
         "xutility": "cpp",
         "queue": "cpp",
         "xiosbase": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "algorithm": "cpp",
+        "limits": "cpp"
     }
 }
