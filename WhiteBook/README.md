@@ -7,7 +7,7 @@
 *   ### USACO
     * #### Section1.2
     * #### Section1.3
-        * milk2.cpp
-        适合：解决这种多段性质的
-        核心：1.先按照起点排序，  2.先比较下组起点的位置  3.再比较下组终点的位置
-        ![milk2](https://github.com/anlance/anlance/blob/master/WhiteBook/USACO/picture/milk2.png)
+        * milk2.cpp<br>
+            * 适合：解决这种多段性质的<br>
+            * ![milk2](https://github.com/anlance/anlance/blob/master/WhiteBook/USACO/picture/milk2.png)<br>
+            * 核心：1) 先按照起点排序;  2) 先比较下组起点的位置;  3) 再比较下组终点的位置.<br>
