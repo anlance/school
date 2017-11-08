@@ -1,4 +1,5 @@
-package chapter4;
+//package chapter4;
+//Tank.java
 
 public class Tank {
 	double speed = 0.0;

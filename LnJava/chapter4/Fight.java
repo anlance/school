@@ -1,4 +1,5 @@
-package chapter4;
+//package chapter4;
+//Fight.java
 
 public class Fight{
     public static void main(String[] args){

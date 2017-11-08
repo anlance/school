@@ -1,4 +1,5 @@
-package chapter4;
+//package chapter4;
+//School.java
 
 public class School{
     Teacher mathTeacher,musicTeacher;

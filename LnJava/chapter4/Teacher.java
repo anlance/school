@@ -1,4 +1,5 @@
-package chapter4;
+//package chapter4;
+//Teacher.java
 
 public class Teacher{
     int teacherType;
