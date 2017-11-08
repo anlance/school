@@ -1,4 +1,4 @@
-package chapter5;
+//package chapter5;
 //Dog.java
 
 class Dog extends Animal{
