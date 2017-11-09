@@ -6,5 +6,5 @@
     * hhh上面的异常是因为我用的`"ssss \n %10.3f"+theArea`而不是`"ssss \n %10.3f",theArea`;<br>
 * ### chapter6
     * 某本书上写的： `接口就是一份契约，由类实现契约。契约中我编写了某些大的方针与前提，而签了约的类可以具体问题具体分析来实现自己的功能`<br>
-    * 
-    * 手机(打印机)就是USB接口的子类，这样，电脑上应用了这个接口之后，这些子类都可以在电脑上使用，但是只会做接口允许做的事情。<br>
+    * ![interface](https://github.com/anlance/anlance/blob/master/SeaLong/picture/interface.png)<br>
+    * 手机(打印机)就是USB接口的子类，这样，电脑上应用了这个接口之后，这些子类都可以在电脑上使用，但是只能做接口允许做的事情。<br>
