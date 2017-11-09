@@ -1,11 +1,11 @@
 //package chapter6;
-//LvZhang.java
+//TuangZhang.java
 
-class LvZhang implements Commander{
-    final int MaxSoldierNumber = 1000;
+class TuZhang implements Commander{
+    final int MaxSoldierNumber = 300;
     int soldierNumber = 1;
     String name;
-    LvZhang(String s){
+    TuZhang(String s){
         this.name = s;
     }
     public void batter(String mess){

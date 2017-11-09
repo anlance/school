@@ -1,4 +1,4 @@
-package chapter6;
+//package chapter6;
 //ShiZhang.java
 
 class ShiZhang implements Commander{
@@ -11,14 +11,15 @@ class ShiZhang implements Commander{
     public void batter(String mess){
         System.out.println(this.name+"接收到作战指令："+mess);
         System.out.println(this.name+"指派"+this.soldierNumber+"人数参战");
-        System.out.print(this.name+"保证完成任务！");
+        System.out.println(this.name+"保证完成任务！");
     }
-    void setSoldierNmuber(int m){
+    void setSoldierNumber(int m){
         if(m>MaxSoldierNumber){
             soldierNumber = MaxSoldierNumber;
-        }
-        else if(m<MaxSoldierNumber && m>0){
+        }else if(m<=MaxSoldierNumber && m>0){
             soldierNumber = m;
+        }else{
+            soldierNumber = 0;
         }
     }
 }

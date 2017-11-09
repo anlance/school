@@ -1,4 +1,4 @@
-package chapter6;
+//package chapter6;
 //Comander.java 
 
 public interface Commander{

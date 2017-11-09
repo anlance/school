@@ -1,4 +1,4 @@
-package chapter6;
+//package chapter6;
 //CheckDogState.java
 
 interface DogState{
@@ -15,8 +15,13 @@ class MeetEnemy implements DogState{
     }
 }
 class MeetFriendState implements DogState{
-    public void cry(){
+    public void showState(){
         System.out.println("摇晃尾巴，并欢快的跑来跑去...");
+    }
+}
+class MeetAnotherDog implements DogState{
+    public void showState(){
+        System.out.println("嬉戏，找呀找呀找朋友");
     }
 }
 class Dog{
@@ -36,6 +41,8 @@ public class CheckDogState{
         taidi.setState(new MeetEnemy());
         taidi.cry();
         taidi.setState(new MeetFriendState());
+        taidi.cry();
+        taidi.setState(new MeetAnotherDog());
         taidi.cry();
     }
 }
