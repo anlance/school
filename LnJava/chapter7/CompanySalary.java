@@ -1,4 +1,4 @@
-package chapter7;
+//package chapter7;
 //CompanySalary.java
 
 abstract class Employee{
@@ -14,6 +14,12 @@ class MonthWorker extends Employee{
         return 12*6730;
     }
 }
+class WeekWorker extends Employee{
+    public double earnings(){
+        return 48*2000;
+    }
+}
+
 class Company{
     Employee employee[];
     double salaries = 0;
@@ -32,10 +38,14 @@ public class CompanySalary{
     public static void main(String []args){
         Employee []employee = new Employee[129];
         for (int i=0;i<employee.length;i++){
-            if(i%2==0)
+            if(i%3==0){
                 employee[i] = new YeatWorker();
-            else
+            }
+            else if(i%3==1){
                 employee[i] = new MonthWorker();
+            }
+            else
+                employee[i] = new WeekWorker();
         }
         Company company = new Company(employee); 
         System.out.println("公司薪水总额："+company.salariesPay()+"元");

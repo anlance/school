@@ -1,4 +1,4 @@
-package chapter7;
+//package chapter7;
 //InputArray.java
 
 import java.util.Arrays;
@@ -15,6 +15,8 @@ public class InputArray{
         System.out.println(Arrays.toString(d));
         c[c.length-1] = -100;
         d[d.length-1] = -200;
+        System.out.println(Arrays.toString(c));
+        System.out.println(Arrays.toString(d));
         System.out.println(Arrays.toString(a));
     }
 }
