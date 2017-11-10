@@ -1,4 +1,4 @@
-package chapter8;
+//package chapter8;
 //Check.java
 
 class Goods{
@@ -29,8 +29,8 @@ class DangerException extends Exception{
 class Machine{
     public void checkBag(Goods goods) throws DangerException{
         if(goods.isDanger()){
-            DangerException dager = new DangerException();
-            throw(dager);
+            DangerException danger = new DangerException();
+            throw(danger);
         }
     }
 }

@@ -1,4 +1,4 @@
-package chapter8;
+//ackage chapter8;
 //MianClass.java
 
 class MobileShop{
@@ -14,7 +14,7 @@ class MobileShop{
         return mobileAmount;
     }
     private int mobileAmount;
-    class InnerPurchaseMony{
+    class InnerPurchaseMony{//n内部类
         int moneyValue;
         InnerPurchaseMony(int m){
             this.moneyValue = m;
