@@ -16,3 +16,6 @@
             this.salaries += this.salaries+i.earnings();
         }
       ```
+* ### chapter8
+    * 内部类，编译生成的class文件名为`外嵌类名$内部类名.class`<br>
+    * 异常类，感觉有点if-else + search 来做到的（虽然实际比这难得多）<br>
