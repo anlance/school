@@ -18,8 +18,7 @@ int main(){
     /*设置ctrl+c产生的信号SIGINT的处理程序为ctrl+c，取代系统原来默认的处理程序*/
     old_handler = signal(SIGINT, ctrl_c);   
     /*不断输入字符，并且同时按多次ctrl+c，直到回车结束*/
-    while((c=getchar())!='\n')
-        ;
+    while((c=getchar())!='\n');
     cout << "ctrl_c_cout = " << ctrl_c_count << endl;
     /*设置信号处理程序为原来的处理程序*/
     (void) signal(SIGINT,old_handler);
