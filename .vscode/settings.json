@@ -8,6 +8,8 @@
         "xiosbase": "cpp",
         "xlocale": "cpp",
         "algorithm": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp"
     }
 }
