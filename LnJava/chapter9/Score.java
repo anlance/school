@@ -1,4 +1,4 @@
-package chapter9;
+//package chapter9;
 //Score.java
 import java.util.*;
 class ComputeeScore{
@@ -13,7 +13,7 @@ class ComputeeScore{
                 sum += price;
             }
             catch(InputMismatchException exp){
-                String t = scanner/next();
+                String t = scanner.next();
             }
         }
         return sum;

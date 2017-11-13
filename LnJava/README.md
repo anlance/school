@@ -1,4 +1,4 @@
-* vscode里面调用jdk编译应该是需要包的整个路径，所以我直接注释了。
+* **`vscode里面调用jdk编译应该是需要包的整个路径，所以我直接注释了。`**
 * ### chapter4
     * 看了一圈，没什么好修改的hhh.<br>
 * ### chapter5
@@ -19,3 +19,10 @@
 * ### chapter8
     * 内部类，编译生成的class文件名为`外嵌类名$内部类名.class`<br>
     * 异常类，感觉有点if-else + search 来做到的（虽然实际比这难得多）<br>
+* ### chapter9
+    * public static String toString(int i, int p) (返回 i 的 p 进制表示)<br>
+      ```java
+      System.out.println("2:"+Integer.toString(12345,2));
+      ```
+      Integer 类在对象中包装了一个基本类型 int 的值。**Integer 类型的对象包含一个 int 类型的字段.**
+      此外，该类提供了多个方法，能在 int 类型和 String 类型之间互相转换，还提供了处理 int 类型时非常有用的其他一些常量和方法。<br>

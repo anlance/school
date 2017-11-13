@@ -1,4 +1,4 @@
-package chapter9;
+//package chapter9;
 //E.java
 
 import java.util.*;
@@ -27,5 +27,10 @@ public class E{
         String s2_number = s2.replaceAll(regex,"*");
         priceSum = jisuan.compute(s2_number,"*");
         System.out.printf("\"%s\"价格总和：\n%f元\n",s2,priceSum);       
+        String re = "[0123456789.]+元";
+        String temp =s2.replaceAll(re, "");
+        temp = temp.replaceAll("，", "");
+        temp = temp.replaceAll(":", " ");
+        System.out.println(temp);
     }
 }

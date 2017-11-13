@@ -1,9 +1,9 @@
-package chapter9;
+//package chapter9;
 //FindMess.java
 
 public class FindMess{
     public static void main(String []args){
-    	String mess = "姓名:龙五  出生时间:1996.12.12。  个人网站:https://www.anlan.club。"+"身高:165 cm,体重:52 kg";
+    	String mess = "姓名:龙五  出生时间:1996.12.12。  个人网站:http://www.anlan.club。"+"身高:165 cm,体重:52 kg";
         int index = mess.indexOf(":");
         String name = mess.substring(index+1);
         if(name.startsWith("龙")){
@@ -38,5 +38,25 @@ public class FindMess{
         else{
             System.out.println("简历中的体重"+weight+"小于55kg");
         }
-    }
+        System.out.println("-----------------------------");
+        System.out.println("下面是练习(1):");
+        String str1 = new String("ABCABC");
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        str2 = str1.replace("A", "First");
+        str3 = str1.replace("B", "Second");
+        str4 = str1.replace("C", "Third");
+        System.out.println(str1);
+        System.out.println(str2);
+        System.out.println(str3);
+        System.out.println(str4);
+        System.out.println("-----------------------------");
+        System.out.println("下面是练习(2):");
+        String sss = "";
+        //Integer i = new Integer(1); //构造器
+        System.out.println("2:"+Integer.toString(12345,2));
+        System.out.println("8:"+Integer.toString(12345,8));
+        System.out.println("16:"+Integer.toString(12345,16));
+    }    
 }
