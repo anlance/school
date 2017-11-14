@@ -11,6 +11,12 @@
         "limits": "cpp",
         "iostream": "cpp",
         "iosfwd": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "fstream": "cpp",
+        "xstring": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "vector": "cpp",
+        "xtree": "cpp"
     }
 }
