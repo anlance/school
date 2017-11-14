@@ -15,14 +15,14 @@
             * 这道题只需模拟每个状态即可，我总想重用代码，结果后来就云里雾里了<br>
         * #### `namenum.cpp`、`palsuare.cpp`<br>
             * 字符串、数字的转换、进制的转换、回文数的判断
-            ```c++
-            //i*i
-            if(temp/N!=0){  //temp转换成N进制
-                while(temp/N!=0){
-                    pa += pp[temp % N];
-                    temp = temp / N;
+                ```c++
+                //i*i
+                if(temp/N!=0){  //temp转换成N进制
+                    while(temp/N!=0){
+                        pa += pp[temp % N];
+                        temp = temp / N;
+                    }
                 }
-            }
-            pa += pp[temp % N]; //易忽略
-            reverse(pa.begin(), pa.end());  //字符串的反转
-            ```
+                pa += pp[temp % N]; //易忽略
+                reverse(pa.begin(), pa.end());  //字符串的反转
+                ```
