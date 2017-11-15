@@ -1,4 +1,4 @@
-package chapter10;
+//package chapter10;
 //MainClass.java
 
 import java.util.*;
@@ -6,7 +6,7 @@ public class MainClass{
     public static void main(String args[]){
         Vector<String> allWord,noSameWord;
         WordStatistic statistic = new WordStatistic();
-        statistic.setFileName("C:\\Users\\Administrator\\eclipse-workspace\\JavaTest\\bin\\chapter10\\hello.txt");
+        statistic.setFileName("C:\\Users\\Administrator\\anlance\\LnJava\\chapter10\\english.txt");
         statistic.wordStatistic();
         allWord = statistic.getAllWord();
         noSameWord = statistic.getNoSameWord();

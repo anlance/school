@@ -1,4 +1,4 @@
-package chapter10;
+//package chapter10;
 //WordStatistic.java
 
 import java.io.*;
@@ -6,7 +6,7 @@ import java.util.*;
 
 public class WordStatistic{
     Vector<String> allWord,noSameWord;
-    File file = new File("C:\\Users\\Administrator\\eclipse-workspace\\JavaTest\\bin\\chapter10\\english.txt");
+    File file = new File("C:\\Users\\Administrator\\anlance\\LnJava\\chapter10\\english.txt");
     Scanner sc = null;
     String regex;
     WordStatistic(){

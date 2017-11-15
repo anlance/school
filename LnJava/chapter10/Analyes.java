@@ -1,4 +1,4 @@
-package chapter10;
+//package chapter10;
 //Analyes.java----åŽŸFenxi.java;
 
 import java.util.*;

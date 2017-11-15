@@ -17,6 +17,7 @@
         "deque": "cpp",
         "initializer_list": "cpp",
         "vector": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "utility": "cpp"
     }
 }
