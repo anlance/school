@@ -18,6 +18,8 @@
         "initializer_list": "cpp",
         "vector": "cpp",
         "xtree": "cpp",
-        "utility": "cpp"
-    }
+        "utility": "cpp",
+        "string": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
