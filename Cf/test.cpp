@@ -1,35 +1,47 @@
 #include<iostream>
-#include<fstream>
 #include<algorithm>
 using namespace std;
 
-struct PCB {
-	char name[2];
-	int priority;
-	int acquiretime;
-	char status;
-	PCB *next;
-};//定义PCB的五种属性
 
-PCB Head;
-Head.next = NULL;
-void Insert(PCB a){
-    if (Head.next == NULL){
-        a.next = NULL;
-        Head.next = a;
-    }else{
-        PCB temp = Head.next;
-        PCB tem2;//保留上一个
-        while(a.priority<temp.priority&&temp.next!=NULL){
-            temp2 = temp;
-            temp = temp.next;
+long N;
+long long a[100001];
+long long b[100001];
+
+int main(){
+    while(cin>>N){
+        int temp = 0;
+        long long Max = 0;
+        long long Max2 = 0;
+        for (int i = 0; i < N;i++){
+            cin >> a[i];
         }
-        if(temp.next==NULl){
-            a.next = NULL;
-            temp.next = a;
+        sort(a, a+N);
+        for (int i = 0; i < N;i++){
+            cin >> b[i];
+            if(b[i]>=Max){
+                Max = b[i];
+                temp = i;
+            }
+        }
+        b[temp] = 0;
+        for (int i = 0; i < N;i++){
+            if(b[i]>=Max2){
+                Max2 = b[i];
+            }
+        }
+        for (int i = N - 1; i >= 0;i--){
+            if(Max-a[i]>=Max2-a[i]){
+                Max -= a[i];
+            }else{
+                Max2 -= a[i];
+            }
+        }
+        if(Max2>=0&&Max>=0){
+            cout << "YES" << endl;
         }else{
-            a.next = temp;
-            temp2.next = a;
+            cout << "NO" << endl;
         }
     }
+    return 0;
 }
+
