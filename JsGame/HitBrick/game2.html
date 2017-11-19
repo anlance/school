@@ -8,6 +8,10 @@
                 border:1px black solid;
             }
             </style>
+            <script src = 'HaiGame.js' ></script>
+            <script src = 'paddle.js' ></script>
+            <script src = 'ball.js' ></script>
+            <script src = 'block.js' ></script>
     </head>
     <body>
         <canvas id="id-canvas" width="400" height="300"></canvas>
@@ -21,72 +25,31 @@ var imageFromPath = function(path){
     return img
 }
 
-var Paddle = function(){
-    var image = imageFromPath('paddle.png')
-    var o = {
-        image: image,
-        x: 100,
-        y: 200,
-        speed: 5,
-    }
-    o.moveLeft = function(){//原文paddle.x -= paddle.speed 怎么能运行的。。。。
-        o.x -= o.speed
-    }
-    o.moveRight = function(){
-        o.x += o.speed
-    }
-    return o
-}
-
-var HaiGame = function(){
-    var g = {
-        actions: {},
-        keydowns: {},
-    }
-    var canvas = document.querySelector('#id-canvas')
-    var context = canvas.getContext('2d')
-    g.canvas = canvas
-    g.context = context
-    //draw
-    g.drawImage =function(haiImage){
-        g.context.drawImage(haiImage.image,haiImage.x,haiImage.y)
-    }
-    //events
-    window.addEventListener('keydown',function(event){
-        g.keydowns[event.key] = true
-    })
-    window.addEventListener('keyup',function(event){
-        g.keydowns[event.key] = false
-    })
-    //
-    g.registerAction = function(key,callback){
-        g.actions[key] = callback
-    }
-    //timer
-    setInterval(function(){
-        //events
-        var actions = Object.keys(g.actions)
-        for(var i=0;i<actions.length;i++){
-            var key = actions[i]
-            if(g.keydowns[key]){
-                //如果按键被按下，调用注册的action
-                g.actions[key]()
-            }
+var rectIntersects = function(a,b){
+    if(b.y > a.y && a.image.height +a.y > b.y){
+        if(b.x>a.x && b.x < a.image.width+a.x){
+            return true
         }
-        //update
-        g.update()
-        //clear
-        context.clearRect(0,0,canvas.width,canvas.height)        
-        //draw
-        g.draw()
-    },1000/30)
-
-    return g
+    }
+    return  false
 }
 
 var __main = function(){
-    var game = HaiGame()
+    var game = HaiGame(60)
     var paddle = Paddle()
+    var ball = Ball()
+    var block = Block()
+
+    var paused = false
+
+    var blocks = []
+    for(var i = 0; i < 3; i++){
+        var b = Block()
+        //set block x,y
+        b.x = i*150
+        b.y = 50 
+        blocks.push(b)
+    }
     
     game.registerAction('a',function(){
         paddle.moveLeft()
@@ -94,14 +57,48 @@ var __main = function(){
     game.registerAction('d',function(){
         paddle.moveRight()
     })
-   
+    game.registerAction('f',function(){
+        ball.fire()
+    })
+    //下面函数不起作用
+    window.addEventListener('keddown', function(event){
+        log('event.key')
+        if(event.key == 'p'){
+            paused = !paused
+        }
+    })
     game.update = function(){
+        if(paused){
+            return 
+        }
+        ball.move()
+        //判断相撞
+        if(paddle.collide(ball)){
+           ball.fantan()
+        }
+        //判断 ball 和 blocks 相撞
+        for(var i = 0; i< blocks.length; i++){
+            var block =blocks[i]
+            if(block.collide(ball)){
+               ball.fantan()
+               log('block 相撞')
+               block.kill()
+            }
+        }
        
     }
 
     game.draw = function(){
         //draw
         game.drawImage(paddle)
+        game.drawImage(ball)
+        // draw block
+        for(var i = 0; i< blocks.length; i++){
+            var block = blocks[i]
+            if(block.alive){
+               game.drawImage(block) 
+            }    
+        } 
     }
 }
 
