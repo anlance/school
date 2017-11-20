@@ -17,7 +17,7 @@
  ## [LnJava](https://github.com/anlance/anlance/tree/master/LnJava)（完）
    * **`CDUT`** 2016级 _《java程序设计使用教程》(第二版 )_  课后实验代码<br>
    * 部分输出的内容作了一些小修改<br>
-   * `vscode里面调用jdk编译应该是需要包的整个路径，所以我直接注释了。`**
+   * vscode里面调用jdk编译应该是需要package的整个路径，所以我直接注释了。
  ## [SeaLong](https://github.com/anlance/anlance/tree/master/SeaLong)
    * 放了一些奇妙的东西<pr>
  ## [WhiteBook](https://github.com/anlance/anlance/tree/master/WhiteBook)
