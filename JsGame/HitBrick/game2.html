@@ -12,26 +12,24 @@
             <script src = 'paddle.js' ></script>
             <script src = 'ball.js' ></script>
             <script src = 'block.js' ></script>
+            <script src = 'utils.js' ></script>
+            <script src = 'level.js' ></script>
     </head>
     <body>
         <canvas id="id-canvas" width="400" height="300"></canvas>
 <script>
 
-var log = console.log.bind(console)
-
-var imageFromPath = function(path){
-    var img = new Image()
-    img.src = path
-    return img
-}
-
-var rectIntersects = function(a,b){
-    if(b.y > a.y && a.image.height +a.y > b.y){
-        if(b.x>a.x && b.x < a.image.width+a.x){
-            return true
-        }
+var loadLevel = function(n){
+    n = n - 1
+    var level = levels[n]
+    var blocks = []
+    for(var i = 0; i < level.length-1; i++){
+        var p = level[i]
+        var b = Block(p)        
+        //设置 block 坐标
+        blocks.push(b)
     }
-    return  false
+    return blocks
 }
 
 var __main = function(){
@@ -42,14 +40,7 @@ var __main = function(){
 
     var paused = false
 
-    var blocks = []
-    for(var i = 0; i < 3; i++){
-        var b = Block()
-        //set block x,y
-        b.x = i*150
-        b.y = 50 
-        blocks.push(b)
-    }
+    var blocks = loadLevel(1)
     
     game.registerAction('a',function(){
         paddle.moveLeft()
@@ -65,6 +56,10 @@ var __main = function(){
         log('event.key')
         if(event.key == 'p'){
             paused = !paused
+        }else if (event.key == '1'){
+            blocks = loadLevel(1)
+        }else if (event.key == '2'){
+            blocks = loadLevel(2)
         }
     })
     game.update = function(){

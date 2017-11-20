@@ -39,7 +39,7 @@ var HaiGame = function(fps){
         context.clearRect(0,0,canvas.width,canvas.height)        
         //draw
         g.draw()
-    },1000/fps)
-
+    }, 1000 / fps)
+    
     return g
 }
