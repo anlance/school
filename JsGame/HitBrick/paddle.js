@@ -24,7 +24,7 @@ var Paddle = function(){
     o.collide = function(ball){
         if(ball.y+ball.image.height>o.y){
             if(ball.x>o.x&&ball.x<o.image.width+o.x){
-                log('相撞')
+                //log('相撞')
                 return true
             }
         }

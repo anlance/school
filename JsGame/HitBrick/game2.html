@@ -8,22 +8,25 @@
                 border:1px black solid;
             }
             </style>
+            <script src = 'utils.js' ></script>            
             <script src = 'HaiGame.js' ></script>
             <script src = 'paddle.js' ></script>
             <script src = 'ball.js' ></script>
             <script src = 'block.js' ></script>
-            <script src = 'utils.js' ></script>
             <script src = 'level.js' ></script>
     </head>
     <body>
         <canvas id="id-canvas" width="400" height="300"></canvas>
 <script>
 
+var log = console.log.bind(console)
+
 var loadLevel = function(n){
     n = n - 1
     var level = levels[n]
+    log(level)
     var blocks = []
-    for(var i = 0; i < level.length-1; i++){
+    for(var i = 0; i < level.length; i++){
         var p = level[i]
         var b = Block(p)        
         //设置 block 坐标
@@ -36,11 +39,11 @@ var __main = function(){
     var game = HaiGame(60)
     var paddle = Paddle()
     var ball = Ball()
-    var block = Block()
+    //var block = Block()
 
     var paused = false
 
-    var blocks = loadLevel(1)
+    var blocks = loadLevel(2)
     
     game.registerAction('a',function(){
         paddle.moveLeft()
@@ -52,10 +55,10 @@ var __main = function(){
         ball.fire()
     })
     //下面函数不起作用
-    window.addEventListener('keddown', function(event){
+    window.addEventListener('keydown', function(event){
         log('event.key')
         if(event.key == 'p'){
-            paused = !paused
+            paused = (!paused)
         }else if (event.key == '1'){
             blocks = loadLevel(1)
         }else if (event.key == '2'){

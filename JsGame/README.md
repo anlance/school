@@ -6,4 +6,4 @@
     * in 60 minutes (外面四个函数实现上次的功能)
 * #### 11.19
     * 加入球和砖块，并分开
-    * 出错，Cannot read property '0' of undefined，下次解决
+    * ~~出错，Cannot read property '0' of undefined，下次解决~~
