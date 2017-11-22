@@ -7,3 +7,7 @@
 * #### 11.19
     * 加入球和砖块，并分开
     * ~~出错，Cannot read property '0' of undefined，下次解决~~
+### HitBrick2
+* #### 11.22
+    * 加入关卡
+    * 增加滑块来改变fps
