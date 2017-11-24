@@ -12,3 +12,9 @@ var rectIntersects = function(a,b){
     }
     return  false
 }
+
+
+
+//var log = function () {
+  //  e("#id-text-log").value += '\n' 
+//}
