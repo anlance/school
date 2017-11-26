@@ -20,5 +20,5 @@
     * 修复不能暂停
 * > ### 效果图
     * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1Title.png)<br>
-    * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1sceen.png)<br>
+    * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1scene.png)<br>
     * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1end.png)<br>
