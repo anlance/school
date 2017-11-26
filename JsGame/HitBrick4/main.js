@@ -47,8 +47,8 @@ var __main = function(){
         block: "img/block.png",
         paddle: "img/paddle.png",
     }
-    var game = HaiGame(60, images, function (g) {
-        var s = Scene(game)
+    var game = HaiGame.instance(60, images, function (g) {
+        var s = SceneTitle.new(game)
         g.runWithScene(s)
     }) 
     enableDebugMode(game, true)  
