@@ -94,7 +94,7 @@ var HaiGame = function (fps, images,runCallback) {
         }, 1000 / fps)
     }
     g.replaceScene = function (scene) {
-        g.scene = screen
+        g.scene = scene
     }
     g.run = function () {
         runCallback(g)
