@@ -47,6 +47,11 @@ var __main = function(){
         cloud: "img/cloud.png",
         sky: "img/sky.jpg",
         player: "img/player.png",
+        enemy0: "img/enemy.png",
+        enemy1: "img/enemy.png",
+        enemy2: "img/enemy.png",
+        enemy3: "img/enemy.png",
+        enemy4: "img/enemy.png",
     }
     var game = HaiGame.instance(60, images, function (g) {
         var s = Scene.new(game)
