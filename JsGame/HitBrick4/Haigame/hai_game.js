@@ -27,7 +27,7 @@ class HaiGame{
         this.context.drawImage(img.image,img.x,img.y)
     }
      //updat
-     update() {
+    update() {
         this.scene.update()
     }
     //draw

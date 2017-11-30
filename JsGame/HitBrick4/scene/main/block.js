@@ -17,6 +17,10 @@ var Block = function (game, position) {
         if (o.lifes < 1) {
             o.alive = false
         }
+        window.toLevel--
+        if (window.toLevel == 0 && window.le < levels.length) {
+            window.le++
+        }
     }
     o.collide = function(b){
         return o.alive && (rectIntersects(b,o) || rectIntersects(o,b))

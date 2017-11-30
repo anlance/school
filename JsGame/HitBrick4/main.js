@@ -1,19 +1,6 @@
 var log = console.log.bind(console)
 
-var loadLevel = function(game, n){
-    n = n - 1
-    var level = levels[n]
-    log(level)
-    var blocks = []
-    for(var i = 0; i < level.length; i++){
-        var p = level[i]
-        var b = Block(game,p)        
-        //设置 block 坐标
-        blocks.push(b)
-    }
-    return blocks
-}
-
+window.le = 1
 var blocks = []
 var enableDebugMode = function(game, enable){
     if(!enable){
@@ -28,7 +15,8 @@ var enableDebugMode = function(game, enable){
             window.paused = (!window.paused)
         }else if ('1234567'.includes(k)){
             //载入关卡
-            blocks = loadLevel(game, Number(k))
+            window.le = Number(k)
+            blocks = loadLevel(game, window.le)
         }
     })
     //控制速度
@@ -50,8 +38,8 @@ var __main = function(){
     var game = HaiGame.instance(60, images, function (g) {
         var s = SceneTitle.new(game)
         g.runWithScene(s)
-    }) 
-    enableDebugMode(game, true)  
+    })   
+    enableDebugMode(game, true)
 }
 
 __main()

@@ -7,8 +7,6 @@ var Scene = function (game) {
 
     var score = 0 
 
-    blocks = loadLevel(game, 1)
-
     game.registerAction('a',function(){
         paddle.moveLeft()
     })
@@ -27,6 +25,7 @@ var Scene = function (game) {
         game.drawImage(paddle)
         game.drawImage(ball)
         // draw block
+        blocks = loadLevel(game, window.le)
         for(var i = 0; i< blocks.length; i++){
             var block = blocks[i]
             if(block.alive){
@@ -34,12 +33,13 @@ var Scene = function (game) {
             }    
         } 
         //draw labels
-        game.context.fillText('分数：'+ score,10,290)
+        game.context.fillText('分数：'+ score,450,400)
     }
+
     s.update = function () {
         if (window.paused) {
             return 
-        }
+        } 
         ball.move()
         //判断游戏结束
         if (ball.y > paddle.y) {
@@ -61,7 +61,7 @@ var Scene = function (game) {
                 //更新分数
                 score += 100 
              }
-         }
+        }
     }
     return s
 }
