@@ -1,6 +1,6 @@
 class HaiImage{
     constructor(game, name) {
-        //this.game = game
+        this.game = game
         this.texture = game.textureByName(name)
         this.x = 0
         this.y = 0
@@ -15,7 +15,7 @@ class HaiImage{
         
     }
 
-    pudate() {
+    update() {
         
     }
 }

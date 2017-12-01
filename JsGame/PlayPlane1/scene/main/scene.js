@@ -17,7 +17,7 @@ class Scene extends HaiScene{
         var game = this.game
         this.numberOfEnemies = 10
         this.bg = HaiImage.new(game, 'sky')
-        this.cloud = HaiImage.new(game, 'cloud')    
+        this.cloud = Cloud.new(game, 'cloud')    
         // this.player = HaiImage.new(game, 'player')
         this.player = Player.new(game)
         this.player.x = 100
@@ -54,18 +54,60 @@ class Scene extends HaiScene{
         g.registerAction('s', function () {
             s.player.moveDown()
         })
+        g.registerAction('j', function () {
+            s.player.fire()
+        })
     }
 }
+
+const config = {
+    player_speed: 10,
+    cloud_speed: 1,
+    enemy_speed: 5,
+    bullet_spedd: 5,
+    fire_cooldown: 9,
+}
+
+class Bullet extends HaiImage{
+    constructor(game) {
+        super(game, 'bullet')
+        this.setup()
+    }
+    setup() {
+        //this.speed = 2
+        this.speed = config.bullet_speed
+    }
+    update() {
+        this.y -= this.speed
+    }
+}
+
 class Player extends HaiImage{
     constructor(game) {
         super(game, 'player')
-       this.setup()
+        this.setup()
     }
     setup() {
-        this.speed = 10
+        this.speed = 5
+        this.cooldown = 0
     }
     update() {
-        
+        this.speed = config.player_speed
+        if (this.cooldown > 0) {
+            this.cooldown--
+        }
+    }
+    fire() {
+        this.update()   //他没有这一句也成功了-。-！！
+        if (this.cooldown == 0) {
+            this.cooldown = config.fire_cooldown          
+            var x = this.x //+ this.w / 2
+            var y = this.y
+            var b = Bullet.new(this.game)
+            b.x = x
+            b.y = y
+            this.scene.addElement(b)
+        }
     }
     moveLeft() {
         this.x -= this.speed 
@@ -99,6 +141,25 @@ class Enemy extends HaiImage{
         this.y = -randomBetween(0, 200)
     }
     update() {
+        this.y += this.speed
+        if (this.y > 600) {
+            this.setup()
+        }
+    }
+}
+
+class Cloud extends HaiImage{
+    constructor(game) {
+        super(game, 'cloud')
+        this.setup()
+    }
+    setup() {
+        this.speed = 1
+        this.x = randomBetween(0, 350)
+        this.y = -randomBetween(0, 200)
+    }
+    update() {
+        this.speed = config.cloud_speed
         this.y += this.speed
         if (this.y > 600) {
             this.setup()

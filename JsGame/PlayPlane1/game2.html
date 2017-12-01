@@ -31,7 +31,68 @@
         <div class = "">
         <!--<textarea id = "id-text-log" rows="20" cols = "50"></textarea>!-->    
         </div>>
+        <div class = "">
+            <label>
+                    <input class = 'hai-auto-slider' type="range" 
+                        value =""
+                        data-value = "config.player_speed"
+                        >
+                    玩家速度:<span class = "hai-label"></span>>
+            </label>>
+        </div>
+        <div class = "">
+            <label>
+                    <input class = 'hai-auto-slider' type="range" 
+                        value ="3"
+                        data-value = "config.bullet_speed"
+                        >
+                    子弹速度:<span class = "hai-label"></span>>
+            </label>>
+        </div>
+        <div class = "">
+            <label>
+                    <input class = 'hai-auto-slider' type="range" 
+                        value ="9"
+                        max = "10"
+                        data-value = "config.fire_cooldown"
+                        >
+                    子弹冷却时间:<span class = "hai-label"></span>>
+            </label>>
+        </div>
+        <div class = "">
+            <label>
+                    <input class = 'hai-auto-slider' type="range" 
+                        value ="3"
+                        min = "-10"
+                        max = "10"
+                        data-value = "config.cloud_speed"
+                        >
+                    云速度:<span class = "hai-label"></span>>
+            </label>>
+        </div>
         <script src = 'main.js'></script>
+        <script>
+            var es = sel => document.querySelectorAll(sel)
+
+            var bindAll = function(sel, eventName, callback){
+                var l = es(sel)
+                for(var i=0; i<l.length; i++){
+                    var input = l[i]
+                    input.addEventListener(eventName, function(event){
+                        callback(event)
+                    })
+                }
+            }
+            bindAll('.hai-auto-slider', 'input', function(event){
+                var target = event.target
+                var bindVar = target.dataset.value
+                var v = target.value
+                eval(bindVar + '=' + v)
+
+                var label = target.closest('label').querySelector('.hai-label')
+                label.innerText = v
+            })
+        </script>
     </body>
 </html>
 

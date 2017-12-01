@@ -43,7 +43,7 @@ var __main = function(){
 
     
     var images = {
-        buulet: "img/bullet.png",
+        bullet: "img/bullet.png",
         cloud: "img/cloud.png",
         sky: "img/sky.jpg",
         player: "img/player.png",
