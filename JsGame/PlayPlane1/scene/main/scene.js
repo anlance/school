@@ -153,6 +153,7 @@ class Cloud extends HaiImage{
         super(game, 'cloud')
         this.setup()
     }
+    //ss
     setup() {
         this.speed = 1
         this.x = randomBetween(0, 350)
