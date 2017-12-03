@@ -52,6 +52,7 @@ var __main = function(){
         enemy2: "img/enemy.png",
         enemy3: "img/enemy.png",
         enemy4: "img/enemy.png",
+        fire: "img/fire.png",
     }
     var game = HaiGame.instance(60, images, function (g) {
         //var s = Scene.new(game)
