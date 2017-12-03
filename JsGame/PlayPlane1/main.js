@@ -54,7 +54,8 @@ var __main = function(){
         enemy4: "img/enemy.png",
     }
     var game = HaiGame.instance(60, images, function (g) {
-        var s = Scene.new(game)
+        //var s = Scene.new(game)
+        var s = SceneTitle.new(game)
         g.runWithScene(s)
     }) 
     enableDebugMode(game, true)  
