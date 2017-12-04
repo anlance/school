@@ -22,3 +22,4 @@
     * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1Title.png)<br>
     * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1scene.png)<br>
     * ![interface](https://github.com/anlance/anlance/blob/master/JsGame/picture/1end.png)<br>
+* > ### 暂停一下这个了
