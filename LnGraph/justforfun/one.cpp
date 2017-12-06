@@ -8,7 +8,7 @@ using namespace std;
 const int MEMORY = 1024;
 const int TAPE = 5;
 
-typedef struct{
+struct JCB{
     char userName[5];
     char jobName[5];
     char status[5];
@@ -19,8 +19,8 @@ typedef struct{
     int memory;   //内存
     int tape;   //磁带
     double DQZZ_Time;//带权周转时间
-    JCB *next;
-}JCB;
+    //JCB *next;
+};
 
 // typedef struct PCB{  
 //     JCB *next;  
@@ -54,6 +54,7 @@ void input(int n)
         cin >> a[i].tape;
     }
 }
+
 
 void FCFS(int n)//先来先服务
 {
@@ -105,7 +106,7 @@ void FCFS(int n)//先来先服务
 	}
 }
 
-//最短作业优先，假设在前3个作业运行完之前所有作业均已到达
+//最短作业优先，
 void SJF(int n)
 {
 	int i, j, time1, time2;
