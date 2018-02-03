@@ -1,0 +1,31 @@
+
+div {
+    outline-style: dashed;
+    outline-width: 1px;
+    outline-color: red;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    color: lightblue;
+    background: yellow;
+    border-width: 10px;
+    border-color: purple;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    flex-grow: 3;
+}
+
+.sidebar {
+    flex-grow: 1;
+}
