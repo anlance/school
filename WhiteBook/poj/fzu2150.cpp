@@ -3,6 +3,8 @@
 #include<vector>
 using namespace std;
 
+//Crawling of this problem failed or hasn't finished
+
 char map[11][11];
 bool vis[11][11];
 int res[101];
