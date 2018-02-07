@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/fire.png</file>
+        <file>image/bfs.png</file>
+        <file>image/dfs.png</file>
+        <file>image/output1.png</file>
+        <file>image/output2.png</file>
+        <file>image/output3.png</file>
+        <file>image/output4.png</file>
+        <file>image/output5.png</file>
+        <file>image/output6.png</file>
+        <file>image/output7.png</file>
+        <file>image/short.png</file>
+        <file>image/connect.png</file>
+        <file>image/output8.png</file>
+        <file>image/handInput.png</file>
+        <file>image/Main.png</file>
+        <file>image/about.png</file>
+        <file>image/explain.png</file>
+        <file>image/bg.jpg</file>
+        <file>image/bt.png</file>
+        <file>image/usBg.jpg</file>
+    </qresource>
+</RCC>

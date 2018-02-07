@@ -1,6 +1,6 @@
-  **知命不惧 · 日日自新**
+  **行到水穷处，坐看云起时。**
   ================
- ##### **_`大二上`的一些学习记录_**<br>
+ ##### **_`大二`的一些学习记录_**<br>
 
  -----------------------------------------------------------<br>
 > 先生，不唱第二部分吗<br>
@@ -26,3 +26,6 @@
    * 做`USACO`一起书上的,先做再看再做..
  ## [osExperiment](https://github.com/anlance/anlance/tree/master/osExperiment)
    * **`CDUT`** 2016级**操作系统**实验<br>
+ ## [GraphOperator](https://github.com/anlance/anlance/tree/master/GraphOperator)
+   * **`CDUT`** 2016级**计算机问题求解**课程源码<br>
+   * **`name`** : The basic operator of the graph
