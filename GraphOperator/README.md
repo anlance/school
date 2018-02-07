@@ -11,18 +11,18 @@
 
 ### 界面系统搭建
 
-![界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/flowPath.png)<br>
+![界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/flowPath.jpg)<br>
 
 ### 效果展示
 
 ![主界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/main.png)<br>
 ![格式说明界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/format.png)<br>
 ![文件输入界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/fileIn.png)<br>
-![手动输入界面](https://github.com/anlance/anlance/blob/master/ptcture/Graphoperator/fileIn.png)<br>
+![手动输入界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/handIn.png)<br>
 ![输出界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/output.png)<br>
 ![全图效果](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/output2.png)<br>
 
 ### 未解决
 
 1. 没有输入错误时的警告弹出窗
-2. 输入图的顶点过多时，显示的桌面会换行输出，但如果复制粘贴到文本文档里，是位换行的（努力解决未解决）
+2. 输入图的顶点过多时，显示的桌面会换行输出，但如果复制粘贴到文本文档里，是未换行的（努力解决未解决）
