@@ -11,16 +11,16 @@
 
 ### 界面系统搭建
 
-![界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/flowPath.png)<br>
+![界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/flowPath.png)<br>
 
 ### 效果展示
 
-![主界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/main.png)<br>
-![格式说明界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/format.png)<br>
-![文件输入界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/fileIn.png)<br>
-![手动输入界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/handIn.png)<br>
-![输出界面](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/output.png)<br>
-![全图效果](https://github.com/anlance/anlance/tree/master/picture/Graphoperator/output2.png)<br>
+![主界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/main.png)<br>
+![格式说明界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/format.png)<br>
+![文件输入界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/fileIn.png)<br>
+![手动输入界面](https://github.com/anlance/anlance/blob/master/ptcture/Graphoperator/fileIn.png)<br>
+![输出界面](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/output.png)<br>
+![全图效果](https://github.com/anlance/anlance/blob/master/picture/Graphoperator/output2.png)<br>
 
 ### 未解决
 
