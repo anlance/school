@@ -37,7 +37,7 @@ bool bellman(){
 
 int main(){
     int a, b;
-    int rab, cab, rba, cba;
+    double rab, cab, rba, cba;
     while(cin>>n>>m>>s>>v){
         all = 0;
         for (int i = 0; i < m;i++){
@@ -45,13 +45,11 @@ int main(){
             exc[all].a = a;
             exc[all].b = b;
             exc[all].r = rab;
-            exc[all].c = cab;
-            all++;
+            exc[all++].c = cab;
             exc[all].a = b;
             exc[all].b = a;
             exc[all].r = rba;
-            exc[all].c = cba;
-            all++;
+            exc[all++].c = cba;
         }
         if(bellman()){
             cout << "YES" << endl;
