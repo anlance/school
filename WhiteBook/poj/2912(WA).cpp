@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> par;
 vector<int> rank;
-#define maxv 510
+#define maxv 520
 bool judge[maxv];
 int pos[maxv];
 int N, M;
@@ -12,7 +12,7 @@ struct Node{
     int a, b;
     char op;
 };
-Node step[2100];
+Node step[2200];
 
 void init(int n){
     par.clear();
@@ -79,8 +79,8 @@ int main(){
         bool flag = false;
         for (int j = 0; j < N;j++){
             init(N * 3);
+            flag = false;
             for (int i = 0; i < M;i++){
-                flag = false;
                 if(step[i].a==j||step[i].b==j)
                     continue;
                 switch(step[i].op){
