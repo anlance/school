@@ -1,0 +1,91 @@
+<html>
+    <body>
+        <form name = "bookPrice">
+            <p align = "center">
+                <input name = "book1" type = "text">
+                <input name = "book2" type = "text">
+                <input name = "book3" type = "text">
+                <input name = "book4" type = "text">
+                <input name = "book5" type = "text"><br><br>
+                <input name = "book6" type = "text">
+                <input name = "book7" type = "text">
+                <input name = "book8" type = "text">
+                <input name = "book9" type = "text">
+                <input name = "book10" type = "text"><br><br>
+                <input type = "button" onclick="doit()" value = "依次显示最高、最低、平均价格"><br><br>
+                <input name = "maxPrice" type = "text" align = "center">
+                <input name = "minPrice" type = "text" align = "center">
+                <input name = "genPrice" type = "text" align = "center">
+            </p>
+        </form>
+        <script type = "text/javascript">
+            var  doit =  function() {
+                    var sum = 0;
+                    var maxP = 0;
+                    var minP = 0;
+                    var num = 0;
+                    num = Number(document.bookPrice.book1.value);
+                    maxP = num;
+                    minP = num;
+                    sum += num;
+                    num = Number(document.bookPrice.book2.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book3.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book4.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book5.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book6.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book7.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num;
+                    num = Number(document.bookPrice.book8.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num;
+                    num = Number(document.bookPrice.book9.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    num = Number(document.bookPrice.book10.value);
+                    if(maxP<num)
+                        maxP = num;
+                    if(minP>num)
+                        minP = num;
+                    sum += num; 
+                    document.bookPrice.maxPrice.value = maxP;  
+                    document.bookPrice.minPrice.value = minP; 
+                    document.bookPrice.genPrice.value = sum/10;  
+                }
+        </script>
+    </body>
+</html>
