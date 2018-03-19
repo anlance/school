@@ -20,11 +20,13 @@ using namespace std;
 int main(){
 	int n;
 	int result = 0;
-	cin>>n;
+	int sum = 0;
+	cin >> n;
 	for(int i=0;i<n;i++){
 		result += (i+1);
+		sum += result;
 	}
-	cout<<result<<endl;
+	cout<<sum<<endl;
 	return 0;
 }
-//5050
+//171700
