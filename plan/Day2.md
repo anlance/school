@@ -2,21 +2,21 @@
 
 + **English**
 
-    - [ ] vocabulary
+    - [x] vocabulary
     - [ ] reading
 
 + **Exercise**
 
-    - [ ] push-up
+    - [x] push-up
     - [ ] pull-up 
 
 + **Algorithm**
 
-    - [ ] blue
+    - [x] blue
 
 + **book**
 
-    - [ ] zizhitongjian
+    - [x] zizhitongjian
 
 + **funny**
 
