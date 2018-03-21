@@ -3,21 +3,21 @@
 
 + **English**
 
-    - [ ] vocabulary
+    - [x] vocabulary
     - [ ] listening
 
 + **Exercise**
 
-    - [ ] push-up
+    - [x] push-up
     - [ ] pull-up 
 
 + **Algorithm**
 
-    - [ ] blue
+    - [x] blue
 
 + **book**
 
-    - [ ] zizhitongjian
+    - [x] zizhitongjian
 
 + **funny**
 
