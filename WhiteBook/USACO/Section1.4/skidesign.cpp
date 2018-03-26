@@ -1,6 +1,6 @@
 /*
 ID: anlandu1
-TASK: crypt1
+TASK: skidesign
 LANG: C++11                 
 */
 
@@ -12,33 +12,38 @@ LANG: C++11
 using namespace std;
 #define INF 0x3f3f3f
 
-int main{
+
+int main(){
     ifstream fin("skidesign.in");
     ofstream fout("skidesign.out");
     int N;
-    int ans = INF;
-    const int MAXH = 100;
-    long long hill[MAXH];
+    const int MAXH = 1005;
+    int hill[MAXH];
     fin >> N;
-    memset(hill, 0, sizeof(hill));
-    for (int i = 0; i < N;i++){
-        int hight;
-        fin >> hight;
-        hill[hight]++;
-    }
-    for (int i = 0; i <=83;i++){
-        int mass = 0;
-        for (int j = 0; j < i;j++){
-            mass += hill[j] * pow2(i-j);
+    for (int i = 0; i < N;i++)
+        fin >> hill[i];
+    //sort(hill, hill + N);
+    long minCost = INF;
+    for (int i = 0; i < 100; i++){
+        long sum = 0;
+        for (int j = 0; j < N;j++){
+            if(hill[j]<i){
+                int temp = i - hill[j];
+                sum += temp * temp;
+                if(sum>=minCost){
+                    break;
+                }
+            }else if(hill[j]>(i+17)){
+                int temp = hill[j] - (i + 17);
+                sum += temp * temp;
+                if(sum>=minCost){
+                    break;
+                }
+            }
         }
-        if(mass==0&&hill[i]==0)
-            continue;
-        int shorten = 0;
-        for (int j = i + 17 + 1; j <= 100;j++){
-            shorten += hill[j] * pow2(j - i - 17);
-        }
-        ans = min(ans, mass + shorten);
+        if (sum < minCost)
+            minCost = sum;
     }
-    fout << ans << endl;
+    fout << minCost << endl;
     return 0;
 }
