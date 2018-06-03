@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>简易安装 vue</title>
+        <script src="vue.js"></script>
+    </head>
+    <body>
+        <div id="app">            
+            num1:{{ num1|toInt }}<br>
+            num2:{{ num2|toInt }}<br>
+            num3:{{ num3|toInt }}<br>
+            总和：{{ sum }}
+            <button v-on:click="plus">加一</button>
+        </div>
+        <script>
+            let vm = new Vue({
+                //挂载元素
+                el:'#app',
+                //实例vm的数据
+                data:{
+                    num1:33.245,
+                    num2:335.22,
+                    num3:24.987
+                },
+                //过滤器
+                filters:{
+                    toInt(value){
+                        return parseInt(value);
+                    }
+                },
+                //计算属性
+                computed:{
+                    sum(){
+                        return this.num1+this.num2+this.num3;
+                    }
+                },
+                //方法
+                methods:{
+                    plus(){
+                        return this.num1++;
+                    }
+                },
+                //观察
+                watch:{
+                    num1(){
+                        console.log('有变化了，最新值：');
+                        console.log(this.num1);
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

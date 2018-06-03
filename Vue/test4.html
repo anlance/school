@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>简易安装 vue</title>
+        <script src="vue.js"></script>
+    </head>
+    <body>
+        <div id ="app">
+            <my-article 
+                v-for="item in articles"
+                :detail="item">
+            </my-article>
+        </div>
+        <script>
+            Vue.component('my-article',{
+                props:['detail'],
+                template:`
+                    <div>
+                        <div>
+                            <h1>{{detail.title}}</h1>
+                            <div>
+                                <span>{{detail.date}}</span>
+                                <span v-show="detail.is_original">原创</span>
+                            </div>
+                        </div>
+                        <img :src="detail.cover_url" alt="">
+                    </div>
+                `
+            });
+
+            let vm = new Vue({
+                el:"#app",
+                data:{
+                    articles:[
+                    {
+                        title:"第一节：Vue.js框架是什么，为什么选择它？",
+                        date:"2018年5月26日",
+                        is_original:true,
+                        cover_url:"se.png"
+                    },
+                    {
+                        title:"第二节：陈",
+                        date:"2018年5月27日",
+                        is_original:true,
+                        cover_url:"se.png"
+                    },
+                    {
+                        title:"第一节：龙",
+                        date:"2018年5月28日",
+                        is_original:true,
+                        cover_url:"se.png"
+                    }
+                ]}
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>简易安装 vue</title>
+        <script src="vue.js"></script>
+    </head>
+    <body>
+        <!-- 父组件->子组件 通信 -->
+        <div id="app">
+            <son :message="msg"></son>
+        </div>
+            <!-- 子组件->父组件 通信 -->
+        <div id="app2">
+            <son2 @connect="say"></son2>
+        </div>
+        <script>
+            //父->子
+            Vue.component('son',{
+                props:['message'],
+                template:`<div>{{message}}</div>`
+            });
+            //创建一个实例
+            const app = new Vue({
+                el:"#app",
+                data:{
+                    msg:"我是父组件的数据"
+                }
+            });
+            //子->父
+            Vue.component('son2',{
+                template:`
+                    <button @click="send">点击</button>,
+                `,
+                data(){
+                    return {
+                        msg:"我是子组件的数据"
+                    }
+                },
+                methods:{
+                    send(){
+                        this.$emit('connect',this.msg);
+                    }
+                }
+            })
+            //创建一个实例
+            const app2 = new Vue({
+                el:"#app2",
+                methods:{
+                    say(msg){
+                        console.log(msg);
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
