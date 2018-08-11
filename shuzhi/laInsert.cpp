@@ -6,6 +6,8 @@ using namespace std;
 double x[maxv],y[maxv];
 int k,n;
 
+//拉格朗日插值
+
 void init(){
     fstream fin("test.txt");
     fin>>n;
@@ -37,7 +39,7 @@ double laInsert(double X0){
         }
         Y += t*y[k];
         k++;
-        //cout<<"Y:"<<Y<<endl;
+        cout<<"Y"<<k<<"："<<Y<<endl;
     }
     return Y;
 }
@@ -47,5 +49,6 @@ int main(){
     double X0 = 1.1300;
     //cin>>X0;
     double res = laInsert(X0);
-    cout<<res<<endl;
+    cout << endl;
+    cout<<"f(1.1300)："<<res<<endl;
 }

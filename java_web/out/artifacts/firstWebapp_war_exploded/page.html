@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客服中心</title>
+    <style type="text/css">
+        @import URL("header.css");
+    </style>
+</head>
+<body bgcolor="#7EAFCC" style="background-image: url('bg.jpg'); background-repeat:no-repeat;background-attachment:fixed;background-position:bottom;" >
+<div style="margin-left: 200px;">
+    <table>
+        <tr>
+        <th scope="col"><img src="logo2.jpg" height="80px" width="80 px" ></img></th>
+            <th scope="col"><h1><a class="taobao_service" href="#"><font color="#90ee90"  >服务中心</font></a></h1></th>
+        </tr>
+    </table>
+</div>
+<script>
+    var fn=function(){
+        window.alert("电话号码是：18081245642，欢迎致电！！！");
+    }
+    var fn1=function(){
+        window.alert("电话号码是：18356884234，欢迎致电！！！");
+    }
+    var fn11=function(){
+        var com1 = document.getElementById("complain1");
+        com1.style.visibility="visible";
+    }
+    var fn12=function(){
+        var com1 = document.getElementById("complain1");
+        com1.style.visibility="hidden";
+    }
+    var fn21=function(){
+        var com2 = document.getElementById("complain2");
+        com2.style.visibility="visible";
+    }
+    var fn22=function(){
+        var com2 = document.getElementById("complain2");
+        com2.style.visibility="hidden";
+    }
+</script>
+<div class="nav" >
+    <ul class="naviterm" >
+    	<li><a class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'"  href="index.jsp" >首页</a>
+        <li><a  href="pay.jsp" class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'" >缴费</a></li>
+        <li><a  href="#" class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'" >安检</a></li>
+        <li><a  href="#" class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'">维修</a></li>
+        <li><a class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'">人工服务</a>
+            <ul>
+                <li><a onclick="fn()">人工语音服务</a></li>
+                <li><a href="autocontact.jsp">在线人工服务</a></li>
+            </ul>
+        </li>
+        <li><a  href="#" class="ws1" onmouseover="this.style.backgroundColor='#90ee90';fn12();f22();"onmouseout="this.style='opacity:1'">客户投诉</a>
+            <ul style="margin-left: 13px;">
+                <li><a href="#" onmouseover="fn11();fn22()" onmouseout="fn11()">匿名投诉</a>
+                    <ul id = "complain1" style="margin-left: 88px;top: -10px;">
+                        <li ><a href="#">邮箱投诉</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onmouseover="fn21();fn12();"  onmouseout="">实名投诉</a>
+                    <ul id = "complain2" style="margin-left: 88px;top: 0px;">
+                        <li><a href="#">邮箱投诉</a></li>
+                        <li><a onclick="fn1()">语音投诉</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a  href="#" class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'" >催收</a></li>
+        <li><a  href="#" class="ws1" onmouseover="this.style.backgroundColor='#90ee90'" onmouseout="this.style='opacity:1'" >工程管理通知</a></li>
+    </ul>
+</div>
+</body>
+</html>
