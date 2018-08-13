@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PhotosWall</title>
+    <style type="text/css">
+        @import url("pw.css");
+    </style>
+</head>
+<body>
+    <div style="perspective:800px;">
+        
+    <div id="photos">
+       
+        <img src="photos/1.png">
+        <img src="photos/2.png">
+        <img src="photos/3.png">
+        <img src="photos/4.png">
+        <img src="photos/5.png">
+        <img src="photos/6.png">
+        <img src="photos/7.png">
+      
+        <div class="d1"></div>
+    </div>
+</div>
+    <script>
+            var photosDom = document.getElementById('photos');
+            //获取图片数组
+            var images = photosDom.getElementsByTagName('img'); 
+            //获取图片数量
+            var len = images.length;        
+            //计算每张图片按Y轴旋转的角度 
+            var deg = Math.floor(360 / len);                    
+            for(var i = 0; i < len;i++){
+                images[i].style = 'transform : rotateY(' + deg * i + 'deg) translateZ(300px)';
+               
+            }
+            var x = 0;
+            setInterval(function(){
+                photosDom.style.transform = "rotateX(-10deg) rotateY("+ (x++) * 0.2 +"deg)";
+            },30);
+        </script>
+</body>
+</html>
