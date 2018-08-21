@@ -29,15 +29,15 @@ body {
     background-clip: padding-box;
 }
 
-/* .d1{
-    width:1200px;
-    height:1200px;
-    border-radius:50%;
+.d1{
+    width:600px;
+    height:600px;
+    background:-webkit-radial-gradient(center center ,300px 300px, rgba(122,122,122,0.5),rgba(0,0,0,0));
     position:absolute;
-    top:102%;
+    border-radius:50%;
     left:50%;
-    margin-left:-700px;
-    margin-top:-600px;
-    transform:rotateX(90deg);
-    background:-webkit-radial-gradient(center center,600px 600px,rgba(158,158,222,0.5),rgba(0,0,0,0));
-} */
+    top:100%;
+    margin-left:-300px;
+    margin-top:-300px;
+    transform:rotateX(90deg); /*沿着x轴方向摁倒*/
+}
