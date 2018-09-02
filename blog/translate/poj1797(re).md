@@ -37,7 +37,7 @@ vector<Node> kong;
 int T, N, M;
 ```
 
-### function ti find the maximum capacity
+### function to find the maximum capacity
 
 ``` c++
 int doit(){
