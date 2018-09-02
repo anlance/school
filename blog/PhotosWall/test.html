@@ -10,37 +10,47 @@
     </style>
 </head>
 <body>
-    <div style="perspective:800px;">
-        
+    <!-- <style type="text/css">@import url(link.css);</style> -->
     <div id="photos">
-       
-        <img src="photos/1.png">
-        <img src="photos/2.png">
-        <img src="photos/3.png">
-        <img src="photos/4.png">
-        <img src="photos/5.png">
-        <img src="photos/6.png">
-        <img src="photos/7.png">
-      
-        <div class="d1"></div>
+        <ul class="u1">
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/10.JPG">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/08.JPG">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/09.JPG">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/04.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/05.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/02.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/07.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/12.JPG">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/03.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/01.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/06.png">
+            </li>
+            <li class="l1" >
+                <img src="http://pdfwxwpwg.bkt.clouddn.com/image/about/11.JPG">
+            </li>
+        </ul>
     </div>
-</div>
-    <script>
-            var photosDom = document.getElementById('photos');
-            //获取图片数组
-            var images = photosDom.getElementsByTagName('img'); 
-            //获取图片数量
-            var len = images.length;        
-            //计算每张图片按Y轴旋转的角度 
-            var deg = Math.floor(360 / len);                    
-            for(var i = 0; i < len;i++){
-                images[i].style = 'transform : rotateY(' + deg * i + 'deg) translateZ(300px)';
-               
-            }
-            var x = 0;
-            setInterval(function(){
-                photosDom.style.transform = "rotateX(-10deg) rotateY("+ (x++) * 0.2 +"deg)";
-            },30);
-        </script>
+    <br>
 </body>
 </html>
