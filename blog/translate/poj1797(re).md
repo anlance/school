@@ -1,7 +1,7 @@
 
 
 
-Although this code was RuntimeError, I steped through one pit after another during the whole afternoon of debuf(), so record it.
+Although this code was RuntimeError, I steped through one pit after another during the whole afternoon of debug(), so record it.
 
 ## title
 
