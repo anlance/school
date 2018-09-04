@@ -19,12 +19,12 @@ I was responsible for system construction (actually, the establishment of the gr
 
 When learning something new, try to choose a related documentation or realted books rather than video beacse vedio is too slow.
 QT can directly design UI, buttons, input components, display components, and so on. But based on my analysis, there are at least seven or eight inerface.
-So I have to di it in code. (what would I do if I had to  if all the UI were coming by designing directly ==)
+So I have to do it in code. (what would I do if I had to  if all the UI were coming by designing directly ==)
 ![interface](http://blog-1253928653.file.myqcloud.com/Image/GraphOperator/flowPath.jpg)<br>
 
 #### the second pit (components design)
 
-For these compenents settings, define as few components as possible ti make the entire code less cluttered.
+For these components settings, define as few components as possible ti make the entire code less cluttered.
 At that time took simple `if-else` to achieve a goal,such as:
 
 ```c++
@@ -47,7 +47,7 @@ void Dialog::setNextBtn(QString text, int x, int y, int width, int hight, QStrin
 }
 ```
 
-Now looking back, realized use `switch` statement may enhanse the readability and efficiency.
+Now looking back, I realized  `switch` statement may enhanse the readability and efficiency.
 
 #### the third pit (ouput)
 
