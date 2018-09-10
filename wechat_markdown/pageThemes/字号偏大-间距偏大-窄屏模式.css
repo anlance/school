@@ -1,0 +1,90 @@
+.wrapper {
+  font-size: 16px;
+  font-family: Avenir, -apple-system-font, 微软雅黑, sans-serif;
+}
+.wrapper > * {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.wrapper p {
+  font-size: 16px;
+  white-space: pre-line;
+  line-height: 30px;
+  color: #4a4a4a;
+}
+.wrapper blockquote {
+  line-height: 22px;
+}
+.wrapper blockquote p {
+  font-size: 14px;
+}
+.wrapper h1 {
+  font-size: 28px;
+  background: #2B6695;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+  font-weight: bold;
+  height: 38px;
+  line-height: 25px;
+  margin: 18px 0 !important;
+  padding: 5px 0 5px 15px;
+  text-shadow: 2px 2px 3px #222222;
+}
+.wrapper h2 {
+  font-size: 24px;
+  background: #008eb7;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+  font-weight: bold;
+  height: 28px;
+  line-height: 25px;
+  width: 80%;
+  margin: 18px 0 !important;
+  padding: 2px 0 4px 15px;
+  text-shadow: 2px 2px 3px #222222;
+}
+.wrapper h3 {
+  font-size: 20px;
+  background: #399ab2;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+  font-weight: bold;
+  height: 25px;
+  width: 60%;
+  line-height: 25px;
+  margin: 18px 0 !important;
+  padding: 1px 0 3px 15px;
+  text-shadow: 2px 2px 3px #222222;
+}
+.wrapper h4 {
+  font-size: 18px;
+  max-width: 100%;
+  border: 2px dashed rgb(0, 187, 236);
+  color: #159957;
+  font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
+  letter-spacing: 0.5440000295639038px;
+  white-space: normal;
+  box-sizing: border-box !important;
+  word-wrap: break-word !important;
+  width: 40%;
+  padding-left: 15px;
+}
+
+.wrapper h5{
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 15px;
+  width: 25%;
+}
+
+.wrapper ul li span, .wrapper ol li span {
+  line-height: 22px;
+  font-size: 14px !important;
+}
