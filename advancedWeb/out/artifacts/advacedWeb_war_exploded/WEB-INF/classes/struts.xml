@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts >
+    <!--开启动态方法调用-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+    <constant name="struts.custom.i18n.resources" value="myBaseName" />
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <!--<package name="i18n" namespace="/" extends="struts-default">-->
+        <!--<action name="i18n" class="club.anlan.myLanguageAction">-->
+            <!--<result>/index.jsp</result>-->
+        <!--</action>-->
+    <!--</package>-->
+    <package name="login" namespace="/" extends="struts-default" >
+        <!--或者-->
+        <!--<global-allowed-methods>regex:.*</global-allowed-methods>-->
+        <!--方法三-->
+        <action name="login_*" class="club.anlan.LoginAction" method="{1}">
+            <result name="userSuccess">/userSuccess.jsp</result>
+            <result name="adminSuccess">/adminSuccess.jsp</result>
+            <result name="fail">/welcomeFail.jsp</result>
+            <result name="input">/index.jsp</result>
+            <!--加这个使方法被允许访问-->
+            <allowed-methods> user,admin</allowed-methods>
+        </action>
+        <action name="myLanguage" class="club.anlan.myLanguageAction">
+            <result>/index.jsp</result>
+        </action>
+
+        <!--方法2-->
+        <!--<action name="login" class="club.anlan.LoginAction" method="" >-->
+            <!--<result name="userSuccess">/userSuccess.jsp</result>-->
+            <!--<result name="adminSuccess">/adminSuccess.jsp</result>-->
+            <!--<result name="fail">/welcomeFail.jsp</result>-->
+        <!--加这个使方法被允许访问-->
+        <!--<allowed-methods> user,admin</allowed-methods>-->
+        <!--</action>-->
+
+        <!--方法一-->
+        <!--<action name="login" class="club.anlan.LoginAction" method="">-->
+            <!--<result name="userSuccess">/userSuccess.jsp</result>-->
+            <!--<result name="adminSuccess">/adminSuccess.jsp</result>-->
+            <!--<result name="fail">/welcomeFail.jsp</result>-->
+        <!--</action>-->
+    </package>
+
+</struts>
