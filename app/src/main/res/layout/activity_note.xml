@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/title_layout"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TableRow>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/newone"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+
+                        android:background="@drawable/newone" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_below="@id/newone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_height="wrap_content"
+                        android:textColor="#EA5246"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:text="新建笔记"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp">
+
+                    <ImageView
+                        android:id="@+id/syn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/syn" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/syn"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#EA5246"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:text="同步"
+                        />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="100dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/all"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/all" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/all"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#EA5246"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:text="全部笔记"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp">
+
+                    <ImageView
+                        android:id="@+id/notebook"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/notebook" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/notebook"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#EA5246"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:text="笔记本"
+                        />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
