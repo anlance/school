@@ -16,7 +16,6 @@
     <h1>admin</h1>
     <h2><S:text name="welcome"/>！${ name } <S:text name="admin"/></h2>
     <S:text name="your_status_is"/> <S:text name="admin"/><br>
-    <S:text name="your_age_is"/> ${ age }
 </div>
 </body>
 </html>

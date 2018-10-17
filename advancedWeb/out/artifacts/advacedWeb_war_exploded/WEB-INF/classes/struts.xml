@@ -15,20 +15,31 @@
             <!--<result>/index.jsp</result>-->
         <!--</action>-->
     <!--</package>-->
-    <package name="login" namespace="/" extends="struts-default" >
+    <package name="auth" namespace="/" extends="struts-default" >
         <!--或者-->
         <!--<global-allowed-methods>regex:.*</global-allowed-methods>-->
         <!--方法三-->
+        <!--登录-->
         <action name="login_*" class="club.anlan.LoginAction" method="{1}">
             <result name="userSuccess">/userSuccess.jsp</result>
             <result name="adminSuccess">/adminSuccess.jsp</result>
-            <result name="fail">/welcomeFail.jsp</result>
+            <result name="fail">/index.jsp</result>
             <result name="input">/index.jsp</result>
             <!--加这个使方法被允许访问-->
             <allowed-methods> user,admin</allowed-methods>
         </action>
+
+        <!--注册-->
+        <action name="register_*" class="club.anlan.RegisterAction" method="{1}">
+            <result name="success">/index.jsp</result>
+            <result name="fail">/register.jsp</result>
+            <result name="input">/register.jsp</result>
+            <!--加这个使方法被允许访问-->
+            <allowed-methods> userRegister,adminRegister,toRegister</allowed-methods>
+        </action>
+
         <action name="myLanguage" class="club.anlan.myLanguageAction">
-            <result>/index.jsp</result>
+            <result name="success">/index.jsp</result>
         </action>
 
         <!--方法2-->

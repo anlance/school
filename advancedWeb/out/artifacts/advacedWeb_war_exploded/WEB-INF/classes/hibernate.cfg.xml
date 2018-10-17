@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--数据库四要素-->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">GSSG255211</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/web</property>
+        <!--方言-->
+        <property name="dialect">org.hibernate.dialect.MySQL57Dialect</property>
+        <!--c3p0连接池-->
+        <property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property>
+        <!--上下文-->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <!--数据库自动创建表和显示sql-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <!--mapping配置文件-->
+        <mapping resource="club/anlan/beans/student.hbm.xml" />
+
+    </session-factory>
+</hibernate-configuration>

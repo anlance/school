@@ -50,24 +50,24 @@
         <a href = "myLanguage.action?request_locale=en_US">english</a>
     </div>
     <div id =content>
+        <S:if test="%{fieldErrors['RegisterSuccess'][0]!=null}">
+            <span class="errors">${fieldErrors['RegisterSuccess'][0]}</span><br>
+        </S:if>
         <S:form id = "login" action="login_*" method="post" style="padding: 2px;line-height: 25px">
             <S:textfield name="name" key="index.form.name"/>
-            <S:textfield name="age" key="index.form.age"/>
             <S:password name="pwd" key="index.form.password"/>
             <%--<input type="button" name="login"  onclick="changeTarget()" style="text-align: center">--%>
             <%--<input type="submit" name="login" value="登陆" style="text-align: center">--%>
         </S:form>
-        <S:if test="%{fieldErrors['loginName'][0]!=null}">
-            <span class="errors">${fieldErrors['loginName'][0]}</span><br><br>
-        </S:if>
-        <S:if test="%{fieldErrors['loginPassword'][0]!=null}">
-            <span class="errors">${fieldErrors['loginPassword'][0]}</span><br><br>
+        <S:if test="%{fieldErrors['loginError'][0]!=null}">
+            <span class="errors">${fieldErrors['loginError'][0]}</span><br><br>
         </S:if>
         <select id="status" name ="status">
             <option value ="user"><S:text name="index.form.status.user"/></option>
             <option value ="admin"><S:text name="index.form.status.admin"/></option>
         </select>
-        <button name="login"  onclick="changeTarget()" style="text-align: center" ><S:text name="index.form.login"/></button>
+        <button name="login"  onclick="changeTarget()" style="text-align: center" ><S:text name="index.form.login"/></button><br><br>
+        <a href="register_toRegister.action"><S:text name="index.form.register"/></a>
     </div>
   </body>
 </html>
