@@ -6,78 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include layout="@layout/title2_layout"></include>
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="club.anlan.second.BigFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            tools:layout="@layout/fragment_big" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginTop="70dp"
-            android:src="@drawable/user" />
-
-        <EditText
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="club.anlan.second.SmallFragment"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="#c6c3c0"
-            android:hint="Username"
-            android:textSize="30dp"
-            android:textAlignment="center"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="#c6c3c0"
-            android:hint="email                          example@abc.com"
-            android:inputType="textEmailAddress"
-            android:textSize="20dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="#c6c3c0"
-            android:hint="password                At least 6 characters"
-            android:inputType="textPassword"
-            android:textSize="20dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="#c6c3c0"
-            android:hint="retype                    At least 6 characters"
-            android:inputType="textPassword"
-            android:textSize="20dp"
-            />
-
-        <Button
-            android:id="@+id/sign"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="50dp"
-            android:background="#ff8800"
-            android:textSize="40dp"
-            android:text="Done"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_small" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
