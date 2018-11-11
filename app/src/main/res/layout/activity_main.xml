@@ -8,26 +8,38 @@
 
 
     <LinearLayout
+        android:id="@+id/main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <fragment
-            android:id="@+id/fragment1"
+            android:id="@+id/fragment_big"
             android:name="club.anlan.second.BigFragment"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="6"
             tools:layout="@layout/fragment_big" />
 
-        <fragment
-            android:id="@+id/fragment2"
-            android:name="club.anlan.second.SmallFragment"
+        <!--<fragment-->
+            <!--android:id="@+id/fragment2"-->
+            <!--android:name="club.anlan.second.SmallFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--tools:layout="@layout/fragment_small" />-->
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:id="@+id/fragment_small"
             android:layout_weight="1"
-            tools:layout="@layout/fragment_small" />
+            android:background="@android:color/background_dark"
+            android:orientation="horizontal"
+            >
+
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

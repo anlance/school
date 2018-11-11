@@ -1,38 +1,43 @@
 package club.anlan.second;
 
-import android.content.Intent;
-import android.media.Image;
+import android.content.res.Configuration;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+
     private ImageView bigImage;
-    private ImageView smallImage;
-    int imgID[]={R.id.small_3_1,R.id.small_3_2,R.id.small_3_3,R.id.small_3_4,R.id.small_3_5,R.id.small_3_6};
+    Fragment sf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bigImage = (ImageView)findViewById(R.id.big_image);
-        showImage();
+        bigImage = (ImageView) findViewById(R.id.big_image);
+
+        sf = new SmallFragment();
+        if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+            sf.setArguments(getIntent().getExtras());
+            FragmentManager manager = getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.fragment_small, sf, "smallfragment");
+            transaction.commit();
+        } else {
+            FragmentManager manager = getSupportFragmentManager();
+            sf = (SmallFragment) manager.findFragmentByTag("smallfragment");
+            FragmentTransaction transaction = manager.beginTransaction();
+            if (sf != null) transaction.remove(sf);
+            transaction.commit();
+        }
+
     }
 
-    protected void showImage(){
-        for(int i=0;i<imgID.length;i++){
-            smallImage = (ImageView)findViewById(imgID[i]);
-            smallImage.setOnClickListener(new View.OnClickListener(){
-
-                @Override
-                public void onClick(View v) {
-                    ImageView img = (ImageView) v;
-                    bigImage.setImageDrawable(img.getDrawable());
-                }
-            });
-        }
+    public void updateImage(ImageView img) {
+        bigImage.setImageDrawable(img.getDrawable());
     }
 
 
