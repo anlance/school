@@ -6,40 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageGirl"
+        android:src="@drawable/people"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageClothes"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageGlasses"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageShoes"/>
 
     <LinearLayout
-        android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好大的太阳，我需要一副眼镜"
+            android:onClick="addGlasses"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="看不到路了！摘掉眼镜"
+            android:onClick="delGlasses"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来双鞋子吧，大哥"
+            android:onClick="addShoes"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不穿鞋子了"
+            android:onClick="delShoes"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参加晚会"
+            android:onClick="girlToEvening"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夏天到了，随便逛逛街"
+            android:onClick="girlToSummer"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="春天到了，春游走一波"
+            android:onClick="girlToSpring"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天气太热，脱掉衣服"
+            android:onClick="girlToHot" />
 
-        <fragment
-            android:id="@+id/fragment_big"
-            android:name="club.anlan.second.BigFragment"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="6"
-            tools:layout="@layout/fragment_big" />
-
-        <!--<fragment-->
-            <!--android:id="@+id/fragment2"-->
-            <!--android:name="club.anlan.second.SmallFragment"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="0dp"-->
-            <!--android:layout_weight="1"-->
-            <!--tools:layout="@layout/fragment_small" />-->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:id="@+id/fragment_small"
-            android:layout_weight="1"
-            android:background="@android:color/background_dark"
-            android:orientation="horizontal"
-            >
-
-        </LinearLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
