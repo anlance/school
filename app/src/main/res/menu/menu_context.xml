@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="club.anlan.second.MainActivity" >
+
+    <item
+        android:id="@+id/yes"
+        android:orderInCategory="100"
+        android:title="不会的"/>
+
+    <item
+        android:id="@+id/no"
+        android:orderInCategory="100"
+        android:title="小问题"/>
+
+</menu>
