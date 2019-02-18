@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+   http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/aop
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+   http://www.springframework.org/schema/tx
+   http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- 2、设置数据源，C3P0默认数据源 -->
+    <bean id="C3P0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/web"/>
+        <property name="user" value="root"/>
+        <property name="password" value="GSSG255211"/>
+    </bean>
+
+    <!-- 3、将hibernate的sessionFactory交给spring管理 -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="C3P0DataSource"/>
+        <property name="mappingDirectoryLocations" value="classpath:/club/anlan/beans/"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.current_session_context_class">
+                    org.springframework.orm.hibernate5.SpringSessionContext</prop>
+            </props>
+        </property>
+    </bean>
+
+    <aop:config>
+        <aop:aspect id="check" ref="MyAdvice">
+            <!-- pointcut配置 -->
+            <aop:pointcut id="needLogin" expression="execution(* club.anlan.CollectAction*.*(..))"/>
+            <aop:after-returning pointcut-ref="needLogin" method="afterAdvice"/>
+        </aop:aspect>
+        <aop:aspect id="log" ref="MyAdvice">
+            <!-- pointcut配置 -->
+            <aop:pointcut id="needLog" expression="execution(* club.anlan.LoginAction*.*(..))"/>
+            <aop:after-returning pointcut-ref="needLog"  method="afterReturningAdvice"/>
+        </aop:aspect>
+    </aop:config>
+
+
+    <bean name="user" class="club.anlan.beans.User">
+        <property name="username" value="小明"/>
+        <property name="age" value="14"/>
+    </bean>
+    <!--<bean name="address" class="club.anlan.beans.Address">-->
+        <!--<property name="address" value="四川射洪"/>-->
+    <!--</bean>-->
+    <bean name="service" class="club.anlan.beans.Service">
+        <property name="name" value="小海"/>
+        <property name="age">
+            <value>16</value>
+        </property>
+        <property name="userDao" ref="user"/>
+    </bean>
+
+
+
+
+
+    <bean id="CollectAction" class="club.anlan.CollectAction"></bean>
+    <bean id="SearchAction" class="club.anlan.SearchAction"></bean>
+    <bean id="LoginAction" class="club.anlan.LoginAction"></bean>
+    <bean id="MyAdvice" class="club.anlan.beans.MyAdvice"></bean>
+
+</beans>

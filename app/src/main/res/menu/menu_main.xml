@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="club.anlan.lab1.MainActivity">
+
+
+    <item
+        android:id="@+id/rePlay"
+        android:orderInCategory="50"
+        android:title="重新开始" />
+    <item
+        android:id="@+id/changeLevel"
+        android:orderInCategory="50"
+        android:title="选择关卡" />
+    <item
+        android:id="@+id/reSet"
+        android:orderInCategory="50"
+        android:title="重新排列"/>
+</menu>

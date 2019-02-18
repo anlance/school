@@ -6,7 +6,34 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e573adca-49f6-42fd-b14f-858957f2ddfb" name="Default Changelist" comment="" />
+    <list default="true" id="e573adca-49f6-42fd-b14f-858957f2ddfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/club/anlan/CollectAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/club/anlan/SearchAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/club/anlan/beans/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/struts-2.3.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-commons-5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-tree-5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-spring-plugin-2.5.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/collect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advancedWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advancedWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/club/anlan/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/club/anlan/LoginAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <list id="81ff87c5-8911-4baa-8d65-13a568b1ca91" name="Revert &quot;实验6&quot;" comment="Revert &quot;实验6&quot;&#10;&#10;This reverts commit b8b32f3" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +41,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -87,125 +115,185 @@
     <session id="587614671">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="3" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="21" />
-          <entry key="jsp" value="9" />
-          <entry key="properties" value="20" />
+          <entry key="class" value="11" />
+          <entry key="dtd" value="2" />
+          <entry key="iml" value="8" />
+          <entry key="java" value="106" />
+          <entry key="jsp" value="38" />
+          <entry key="log" value="3" />
+          <entry key="properties" value="29" />
           <entry key="tld" value="2" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="71" />
+          <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
-          <entry key="JSP" value="9" />
-          <entry key="Properties" value="20" />
-          <entry key="XML" value="25" />
+          <entry key="CLASS" value="11" />
+          <entry key="DTD" value="2" />
+          <entry key="IDEA_MODULE" value="8" />
+          <entry key="JAVA" value="106" />
+          <entry key="JSP" value="38" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="29" />
+          <entry key="XML" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2772" />
-          <entry key="jsp" value="351" />
+          <entry key="dummy" value="58" />
+          <entry key="java" value="7917" />
+          <entry key="jsp" value="453" />
           <entry key="properties" value="352" />
-          <entry key="txt" value="32" />
-          <entry key="xml" value="522" />
+          <entry key="txt" value="58" />
+          <entry key="xml" value="1878" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2772" />
-          <entry key="JSP" value="351" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="JAVA" value="7917" />
+          <entry key="JSP" value="453" />
+          <entry key="PLAIN_TEXT" value="116" />
           <entry key="Properties" value="352" />
-          <entry key="XML" value="522" />
+          <entry key="XML" value="1878" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.revision" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="advancedWeb" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+        <entry file="file://$PROJECT_DIR$/src/club/anlan/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="459">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/club/anlan/LoginAction.java">
+        <entry file="file://$PROJECT_DIR$/web/collect.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/first.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/club/anlan/CollectAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="1" selection-start-line="7" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/MyAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/club/anlan/RegisterAction.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="286" selection-start-line="1" selection-start-column="286" selection-end-line="1" selection-end-column="286" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+            <state relative-caret-position="680">
+              <caret line="40" selection-start-line="40" selection-end-line="51" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/club/anlan/util/Encrypt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/struts-2.3.dtd">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -215,43 +303,83 @@
       <list>
         <option value="struts" />
         <option value="HTML File" />
-        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>student</find>
+      <find>user1</find>
+      <find>clear</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b8b32f319ecdf5ddf7e747eb992a8fb4c194a4df" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/club/anlan/HelloAction.java" />
-        <option value="$PROJECT_DIR$/web/sayHi.jsp" />
-        <option value="$PROJECT_DIR$/web/welcomeFail.jsp" />
-        <option value="$PROJECT_DIR$/web/userSuccess.html" />
-        <option value="$PROJECT_DIR$/web/adminSuccess.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/myBaseName_GBK.properties" />
         <option value="$PROJECT_DIR$/src/test.properties" />
         <option value="$PROJECT_DIR$/web/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/club/anlan/CheckInterceptor.java" />
         <option value="$PROJECT_DIR$/src/club/anlan/myLanguageAction.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/club/anlan/beans/Student.java" />
-        <option value="$PROJECT_DIR$/src/club/anlan/beans/student.hbm.xml" />
         <option value="$PROJECT_DIR$/src/club/anlan/util/Encrypt.java" />
-        <option value="$PROJECT_DIR$/src/club/anlan/test/TestEncrypt.java" />
-        <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/web/userSuccess.jsp" />
         <option value="$PROJECT_DIR$/web/adminSuccess.jsp" />
-        <option value="$PROJECT_DIR$/src/club/anlan/test/TestHibernate.java" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/myBaseName_zh_CN.properties" />
         <option value="$PROJECT_DIR$/src/myBaseName_en_US.properties" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/club/anlan/utils/HbnUtils.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/test/TestEncrypt.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/student.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/goods.order.xml" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/src/club/anlan/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/util/hbnUtils.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/address.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/Address.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/user.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/goods.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/Goods.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/order.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/Order.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/test/LogUtil.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/test/TestLog4j.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/src/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/User.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/Service.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/test/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/test/TestHibernate.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/afterAdviceBye.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/SearchAction.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/search.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/collect.jsp" />
+        <option value="$PROJECT_DIR$/web/collect.jsp" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/first.jsp" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/AfterAdviceRecordLogin.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/CollectAction.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/AfterAdviceToLogin.java" />
+        <option value="$PROJECT_DIR$/src/club/anlan/beans/MyAdvice.java" />
         <option value="$PROJECT_DIR$/src/club/anlan/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -264,8 +392,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -282,7 +410,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -307,13 +434,13 @@
               <item name="advancedWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="anlan" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advancedWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="advancedWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Resource Bundle 'myBaseName'" type="a6c14932:ResourceBundleNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advancedWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -331,25 +458,34 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539779217148" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544634959276" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../star" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anlan\IdeaProjects\advancedWeb\src" />
       <recent name="C:\Users\anlan\IdeaProjects\advancedWeb\web\WEB-INF\lib" />
+      <recent name="C:\Users\anlan\IdeaProjects\advancedWeb\src\club\anlan\beans" />
       <recent name="C:\Users\anlan\IdeaProjects\advacedWeb\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anlan\IdeaProjects\advancedWeb\web" />
+      <recent name="C:\Users\anlan\IdeaProjects\advancedWeb\src\club\anlan\beans" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,8 +500,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp">
-    <configuration name="TestEncrypt.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.first.jsp (1)">
+    <configuration name="TestSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advancedWeb" />
       <extension name="coverage">
         <pattern>
@@ -374,48 +510,100 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="club.anlan.test" />
-      <option name="MAIN_CLASS_NAME" value="club.anlan.test.TestEncrypt" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="club.anlan.test.TestSpring" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advancedWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.anlan.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="club.anlan.test" />
-      <option name="MAIN_CLASS_NAME" value="club.anlan.test.TestHibernate" />
+    <configuration name="first.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/first.jsp" />
+      <deployment>
+        <artifact name="advacedWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_(1)_advancedWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="advacedWeb:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration name="TestHibernate.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advancedWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.anlan.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="club.anlan.test" />
-      <option name="MAIN_CLASS_NAME" value="club.anlan.test.TestHibernate" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="first.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/first.jsp" />
+      <deployment>
+        <artifact name="advacedWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_advancedWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="advacedWeb:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment />
+      <deployment>
+        <artifact name="advacedWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_advacedWeb" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_advancedWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -454,7 +642,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_advancedWeb_3" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_advancedWeb_4" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -486,13 +674,7 @@
     <configuration name="tomacat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="advacedWeb:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_advacedWeb_3" />
       </server-settings>
@@ -557,21 +739,24 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomacat" />
+      <item itemvalue="JUnit.TestSpring" />
       <item itemvalue="Tomcat Server.index.jsp (1)" />
-      <item itemvalue="JUnit.TestHibernate" />
-      <item itemvalue="JUnit.TestEncrypt.test1" />
-      <item itemvalue="JUnit.TestHibernate.testQuery" />
+      <item itemvalue="Tomcat Server.first.jsp" />
       <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.first.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.first.jsp (1)" />
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.first.jsp" />
         <item itemvalue="Tomcat Server.index.jsp (1)" />
-        <item itemvalue="JUnit.TestHibernate.testQuery" />
-        <item itemvalue="JUnit.TestEncrypt.test1" />
-        <item itemvalue="JUnit.TestHibernate" />
+        <item itemvalue="JUnit.TestSpring" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,ALPHA_COMPARATOR,SHOW_PROPERTIES,SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -602,7 +787,25 @@
       <workItem from="1539655656346" duration="9438000" />
       <workItem from="1539743037749" duration="9813000" />
       <workItem from="1539756773361" duration="33000" />
-      <workItem from="1539774938124" duration="2957000" />
+      <workItem from="1539774938124" duration="3513000" />
+      <workItem from="1539843843320" duration="2882000" />
+      <workItem from="1540014399414" duration="618000" />
+      <workItem from="1541832119888" duration="1231000" />
+      <workItem from="1542090308539" duration="209000" />
+      <workItem from="1542335432993" duration="37000" />
+      <workItem from="1542420678687" duration="24244000" />
+      <workItem from="1542510036693" duration="17939000" />
+      <workItem from="1542539464233" duration="6557000" />
+      <workItem from="1542604038586" duration="6138000" />
+      <workItem from="1542610767735" duration="6523000" />
+      <workItem from="1542682814363" duration="892000" />
+      <workItem from="1542800135468" duration="3968000" />
+      <workItem from="1542877331360" duration="681000" />
+      <workItem from="1542901502535" duration="134000" />
+      <workItem from="1543565802175" duration="1995000" />
+      <workItem from="1543821781023" duration="17000" />
+      <workItem from="1544596571162" duration="28003000" />
+      <workItem from="1544960043601" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="2_validate &amp; i18n">
       <created>1537971756307</created>
@@ -632,43 +835,92 @@
       <option name="project" value="LOCAL" />
       <updated>1539778964556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3_hibernate update db">
+      <created>1539846249920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539846249923</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3_hibernate update db">
+      <created>1541833287595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541833287596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="实验3">
+      <created>1542428348792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542428348792</updated>
+    </task>
+    <task id="LOCAL-00008" summary="实验4">
+      <created>1542527755275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542527755275</updated>
+    </task>
+    <task id="LOCAL-00009" summary="实验5">
+      <created>1542604120391</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542604120391</updated>
+    </task>
+    <task id="LOCAL-00010" summary="实验6">
+      <created>1542618320549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542618320549</updated>
+    </task>
+    <task id="LOCAL-00011" summary="实验6">
+      <created>1544617647000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544617647000</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHibernate_testSave - 2018.10.15 at 13h 21m 30s.xml">
-      <configuration name="TestHibernate.testSave" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 18h 54m 17s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHibernate - 2018.10.15 at 13h 22m 32s.xml">
-      <configuration name="TestHibernate" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 18h 54m 51s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 16h 37m 54s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 35m 56s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 16h 52m 23s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 37m 19s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 16h 53m 23s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 41m 50s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 16h 54m 29s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 44m 23s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 17h 01m 04s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 46m 44s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEncrypt_test1 - 2018.10.16 at 17h 01m 22s.xml">
-      <configuration name="TestEncrypt.test1" configurationId="JUnit" />
+    <history-entry file="TestHibernate_testHql - 2018.12.12 at 19h 47m 16s.xml">
+      <configuration name="TestHibernate.testHql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHibernate_testQuery - 2018.10.17 at 11h 57m 17s.xml">
-      <configuration name="TestHibernate.testQuery" configurationId="JUnit" />
+    <history-entry file="TestSpring - 2018.12.12 at 20h 17m 48s.xml">
+      <configuration name="TestSpring" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHibernate_testQuery - 2018.10.17 at 11h 57m 58s.xml">
-      <configuration name="TestHibernate.testQuery" configurationId="JUnit" />
+    <history-entry file="TestSpring - 2018.12.12 at 20h 50m 31s.xml">
+      <configuration name="TestSpring" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114682000" />
+    <option name="totallyTimeSpent" value="217325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,31 +933,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.42352942" side_tool="true" weight="0.17927383" />
       <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Web" order="4" sideWeight="0.42687747" side_tool="true" weight="0.17927383" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.21860817" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.5731225" visible="true" weight="0.28895614" />
+      <window_info id="Persistence" order="7" sideWeight="0.42687747" side_tool="true" weight="0.17927383" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.25409836" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.52380955" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.35081968" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.5327869" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.4442623" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.34918034" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.36124796" />
-      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.4679803" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49924356" weight="0.4180328" />
+      <window_info anchor="bottom" id="Application Servers" order="6" sideWeight="0.49924356" weight="0.5098361" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.1852459" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49924356" visible="true" weight="0.27914613" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.55500823" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49924356" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.80030257" weight="0.16229509" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.4557377" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -715,6 +966,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.30927834" side_tool="true" visible="true" weight="0.17473525" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,9 +976,9 @@
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
+        <option value="1" />
         <option value="2" />
         <option value="3" />
-        <option value="1" />
       </list>
     </option>
   </component>
@@ -741,6 +993,17 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -762,61 +1025,229 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2_validate &amp; i18n" />
     <MESSAGE value="3_hibernate &amp; 注册登录 &amp; 暗文存储密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="3_hibernate &amp; 注册登录 &amp; 暗文存储密码" />
+    <MESSAGE value="3_hibernate update db" />
+    <MESSAGE value="实验3" />
+    <MESSAGE value="实验4" />
+    <MESSAGE value="实验5" />
+    <MESSAGE value="实验6" />
+    <option name="LAST_COMMIT_MESSAGE" value="实验6" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/sayHi.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/HelloAction.java" />
-    <entry file="file://$PROJECT_DIR$/web/adminSuccess.html" />
-    <entry file="file://$PROJECT_DIR$/web/userSuccess.html" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/xwork-2.0.7.jar!/com/opensymphony/xwork2/util/DomHelper.class" />
-    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+    <entry file="file://$PROJECT_DIR$/web/userSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        <state relative-caret-position="238">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myBaseName.properties" />
-    <entry file="file://$PROJECT_DIR$/src/myBaseName_GBK.properties" />
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/advacedWeb_war_exploded.xml">
+    <entry file="file://$PROJECT_DIR$/web/welcomeFail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/address.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/util/hbnUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="148" column="7" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="116" column="95" selection-start-line="116" selection-start-column="95" selection-end-line="116" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/goods.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.xsd" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_debug.log" />
+    <entry file="file://$PROJECT_DIR$/log_info.log" />
+    <entry file="file://$PROJECT_DIR$/log_error.log" />
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestEncrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib__2_.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Student.java" />
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.17.jar!/com/opensymphony/xwork2/ActionSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib__3_.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/xwork_2_0_7.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/order.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/advancedWeb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate-core-5.2.9.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/resourceBundles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/user.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="193" column="28" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestLog4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/SearchAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -827,149 +1258,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/CheckInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/web/welcomeFail.jsp">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.17.jar!/com/opensymphony/xwork2/ActionSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.17.jar!/org/apache/struts2/views/jsp/TextTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.17.jar!/META-INF/struts-tags.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7975" column="47" lean-forward="true" selection-start-line="7975" selection-start-column="47" selection-end-line="7975" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.17.jar!/org/apache/struts2/views/jsp/ui/TextFieldTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/myLanguageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advancedWeb.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/StudetDAO.java" />
-    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="242" column="28" selection-start-line="242" selection-start-column="28" selection-end-line="242" selection-end-column="28" />
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="306">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/student.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="70" column="10" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="70" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/AfterAdviceRecordLogin.java" />
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="28" />
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="459">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/adminSuccess.jsp">
+    <entry file="file://$PROJECT_DIR$/web/collect.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/userSuccess.jsp">
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="561">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/test/TestHibernate.java">
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/CollectAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="1" selection-start-line="7" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -977,81 +1329,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/util/Encrypt.java">
+    <entry file="file://$PROJECT_DIR$/src/club/anlan/beans/MyAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myBaseName_zh_CN.properties">
-      <provider editor-type-id="ResourceBundle" />
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" selection-start-line="17" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/struts-2.3.dtd">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myBaseName_en_US.properties">
-      <provider editor-type-id="ResourceBundle" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="15" column="10" selection-start-line="15" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/anlan/RegisterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="286" selection-start-line="1" selection-start-column="286" selection-end-line="1" selection-end-column="286" />
         </state>
       </provider>
     </entry>
@@ -1109,7 +1418,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>advacedWeb</last-edited>
+          <last-edited>Spring|advancedWeb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1122,6 +1431,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

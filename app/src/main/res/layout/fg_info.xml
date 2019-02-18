@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="背景音乐"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Switch
+                android:id="@+id/swh_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff=""
+                android:textOn=""
+                android:thumb="@drawable/thumb_selector"
+                android:track="@drawable/track_selector" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="点击音效"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Switch
+                android:id="@+id/swh_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff=""
+                android:textOn=""
+                android:thumb="@drawable/thumb_selector"
+                android:track="@drawable/track_selector" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginLeft="50dp"
+               android:layout_marginRight="50dp"
+               android:layout_marginTop="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="   作者：anlan '\n'
+        时间：2018-11 '\n'
+        规则：在最外层，只要是相邻的两列就可以消除，如果是一个角，那么它可以和最外层的所有相同的进行消除 '\n'
+             在里面的，只有相邻或者可以到达的能进行消除"
+               />
+
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

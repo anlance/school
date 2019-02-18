@@ -44,9 +44,9 @@
 <body bgcolor="#8fbc8f" style="text-align: center">
 <div id =content>
     <S:form id = "register" action="register_*" method="post" style="padding: 2px;line-height: 25px; text-align:center">
-        <S:textfield name="student.username" key="index.form.name"/>
-        <S:textfield name="student.age" key="index.form.age"/>
-        <S:password name="student.password" key="index.form.password"/>
+        <S:textfield name="user.username" key="index.form.name"/>
+        <S:textfield name="user.age" key="index.form.age"/>
+        <S:password name="user.password" key="index.form.password"/>
         <S:password name="rePassword" key="index.form.rePassword"/>
     </S:form>
     <S:if test="%{fieldErrors['loginError'][0]!=null}">

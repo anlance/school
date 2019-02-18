@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="club.anlan.beans.Order" table="t_order">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="goodsNum" column="goodsNum"/>
+        <property name="oneGoodsUnitPrice" column="oneGoodsUnitPrice" />
+        <property name="oneGoodsNum" column="oneGoodsNum"/>
+        <property name="totalPrice" column="totalPrice" />
+        <!--1：n 用户 订单 双向关联-->
+        <many-to-one name="user" column="user_id"/>
+        <!--m：n 订单 商品 双向关联-->
+        <set  name="goodsMore" cascade="save-update" inverse="false" table="orderGoods_double" fetch="select">
+            <key column="order_id"></key>
+            <many-to-many class="club.anlan.beans.Goods" column="goods_id" />
+        </set>
+    </class>
+</hibernate-mapping>

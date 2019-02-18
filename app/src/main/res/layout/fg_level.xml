@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_level"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:layout_above="@+id/level"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <RatingBar
+            android:id="@+id/level"
+            android:stepSize="1"
+            android:progressTint="#3df"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_cur_level"
+            android:text="黑铁"
+            android:textColor="#532"
+            android:textSize="40dp"
+            android:layout_below="@id/level"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_changeLevel"
+            android:text="确定"
+            android:textColor="#532"
+            android:textSize="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_below="@id/txt_cur_level"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

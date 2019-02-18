@@ -7,6 +7,7 @@
 <struts >
     <!--开启动态方法调用-->
     <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.objectFactory" value="spring" />
 
     <constant name="struts.custom.i18n.resources" value="myBaseName" />
     <constant name="struts.i18n.encoding" value="UTF-8" />
@@ -20,13 +21,20 @@
         <!--<global-allowed-methods>regex:.*</global-allowed-methods>-->
         <!--方法三-->
         <!--登录-->
-        <action name="login_*" class="club.anlan.LoginAction" method="{1}">
+        <action name="login_*" class="LoginAction" method="{1}">
             <result name="userSuccess">/userSuccess.jsp</result>
             <result name="adminSuccess">/adminSuccess.jsp</result>
             <result name="fail">/index.jsp</result>
             <result name="input">/index.jsp</result>
             <!--加这个使方法被允许访问-->
             <allowed-methods> user,admin</allowed-methods>
+        </action>
+        <action name="search" class="SearchAction">
+            <result name="success">/search.jsp</result>
+        </action>
+        <action name="collect" class="CollectAction">
+            <result name="success">/collect.jsp</result>
+            <result name="fail">/index.jsp</result>
         </action>
 
         <!--注册-->

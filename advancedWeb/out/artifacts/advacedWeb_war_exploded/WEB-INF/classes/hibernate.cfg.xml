@@ -21,7 +21,10 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
         <!--mapping配置文件-->
-        <mapping resource="club/anlan/beans/student.hbm.xml" />
+        <mapping resource="club/anlan/beans/user.hbm.xml" />
+        <mapping resource="club/anlan/beans/order.hbm.xml" />
+        <mapping resource="club/anlan/beans/goods.hbm.xml" />
+        <mapping resource="club/anlan/beans/address.hbm.xml" />
 
     </session-factory>
 </hibernate-configuration>

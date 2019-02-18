@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image01"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image02"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image03"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image04"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image05"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image06"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image07"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image08"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image09"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image10"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image12"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image13"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image14"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image15"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image16"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image17"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image18"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image19"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image20"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image21"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image22"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image23"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image24"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image25"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image26"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image27"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image28"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image29"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image30"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image31"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image32"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image33"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image34"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image35"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image36"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image37"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image38"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image39"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image40"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image41"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image42"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image43"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image44"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image45"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image46"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image47"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image48"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image49"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image50"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image51"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image52"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image53"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image54"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image55"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image56"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/image57"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image58"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image59"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image60"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image61"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image62"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image63"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image64"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+            <TableRow>
+
+
+                <ImageView
+                    android:id="@+id/image65"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image66"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image67"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image68"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image69"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image70"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image71"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+
+                <ImageView
+                    android:id="@+id/image72"
+                    android:layout_width="@dimen/img_width"
+                    android:layout_height="@dimen/img_height"
+                    android:padding="@dimen/img_padding"
+                    android:src="@drawable/img01" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="菜单" />
+
+        <TextView
+            android:id="@+id/timerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:text="00:00:00"
+            android:layout_toLeftOf="@+id/btn_menu"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

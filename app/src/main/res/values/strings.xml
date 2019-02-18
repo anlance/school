@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">有道友笔记</string>
-    <string name="sign">Sign Up</string>
-    <string name="swan">hello pic</string>
-    <string name="big_description">小熊猫你怎么这么帅</string>
+    <string name="app_name">连连看</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tab_menu_game">游戏</string>
+    <string name="tab_menu_level">排行榜</string>
+    <string name="tab_menu_info">说明</string>
 </resources>

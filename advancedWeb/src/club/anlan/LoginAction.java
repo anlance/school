@@ -1,13 +1,17 @@
 package club.anlan;
 
-import club.anlan.beans.Student;
+import club.anlan.beans.User;
 import club.anlan.util.Encrypt;
+import club.anlan.util.hbnUtils;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
+import java.text.DateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 
 public class LoginAction extends ActionSupport {
@@ -36,8 +40,11 @@ public class LoginAction extends ActionSupport {
 
     public String user(){
         System.out.println("用户登录");
-        Student user = selectFromDB(1);
+        User user = selectFromDB(1);
         if(user!=null){
+            Map<String,Object> map =  ActionContext.getContext().getSession();
+            map.put("isLogin","true");
+            System.out.println(user.getUsername()+"于"+DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG,   Locale.CHINESE).format(new java.util.Date())+"时间登陆系统");
             return "userSuccess";
         }
         else{
@@ -48,8 +55,10 @@ public class LoginAction extends ActionSupport {
 
     public String admin(){
         System.out.println("管理员登录");
-        Student admin = selectFromDB(0);
+        User admin = selectFromDB(0);
         if(admin!=null){
+            Map<String,Object> map =  ActionContext.getContext().getSession();
+            map.put("isLogin","true");
             return "adminSuccess";
         }
         else{
@@ -58,16 +67,14 @@ public class LoginAction extends ActionSupport {
         }
     }
 
-    public Student selectFromDB(Integer role) {
-        Configuration configure = new Configuration().configure();
-        SessionFactory sessionFactory = configure.buildSessionFactory();
-        Session session = sessionFactory.getCurrentSession();
+    public User selectFromDB(Integer role) {
+        Session session = hbnUtils.getSession();
         try {
             session.beginTransaction();
             String encryptPwd = (new Encrypt(getPwd())).getPwd();
-            String sqlTail = " where tusername=\"" + getName() + "\"and trole=" + role + " and tpassword=\"" + encryptPwd+"\"";
-            String sqlString = "select * from student" + sqlTail;
-            List<Student> list = session.createSQLQuery(sqlString).addEntity(Student.class).list();
+            String sqlTail = " where username=\"" + getName() + "\"and role=" + role + " and password=\"" + encryptPwd+"\"";
+            String sqlString = "select * from user" + sqlTail;
+            List<User> list = session.createSQLQuery(sqlString).addEntity(User.class).list();
             session.getTransaction().commit();
             if(list.isEmpty()){
                 return null;
